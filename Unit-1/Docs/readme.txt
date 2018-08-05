@@ -1,9 +1,9 @@
 # Welcome to Unit 1 - Introduction to Multimedia Programming
-7 August 2018
+## 7 August 2018
 
 ==========
 
-Lab
+## Lab
 - Preparing
 - Syntax of HTML CSS JS
 - Linking files
