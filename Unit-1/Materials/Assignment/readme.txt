@@ -3,3 +3,8 @@ use your creativity sense and your backgrund knowledge of multmedia
 
 Deadline
 Monday 13 August 6.00 AM
+
+Condition
+- Time / Greeting / Something else
+- Technically (css/js)
+- Creativity
