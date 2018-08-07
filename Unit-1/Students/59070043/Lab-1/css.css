@@ -6,7 +6,7 @@
 }
 #welcome{
 	text-decoration: underline;
-	animation: welcome 1s infinite;
+	/*write css to animating welcome element*/
 }
 @keyframes welcome{
 	from{
