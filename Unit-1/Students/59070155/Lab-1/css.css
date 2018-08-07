@@ -6,7 +6,7 @@
 }
 #welcome{
 	text-decoration: underline;
-	animation: welcome 5S infinite;
+	animation: welcome 1s infinite;
 }
 @keyframes welcome{
 	from{
