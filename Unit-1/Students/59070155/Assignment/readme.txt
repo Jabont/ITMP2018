@@ -8,3 +8,4 @@ Condition
 - Time / Greeting / Something else
 - Technically (css/js)
 - Creativity
+- ใส่ชื่กับหน้า
