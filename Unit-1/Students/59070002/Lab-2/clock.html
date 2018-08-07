@@ -3,13 +3,19 @@
 <head>
 	<title>Clock</title>
 </head>
-<body>
-	
+<body>	
+	<h1 id="show_hr"></h1>
+	<h1 id="show_min"></h1>
+	<h1 id="show_sec"></h1>
 	<script>
 		let d = new Date(); 
 		let hr = d.getHours(); 
 		let min = d.getMinutes(); 
 		let sec = d.getSeconds(); 
+
+		show_hr.innerText = hr;		
+		show_min.innerText = min;
+		show_sec.innerText = sec;
 	</script>
 
 </body>
