@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Clock</title>
+</head>
+<body>
+	<h1 id="clock_h"></h1>
+	<h1 id="clock_m"></h1>
+	<h1 id="clock_s"></h1>
+
+
+	<script>
+		let d = new Date(); 
+		let hr = d.getHours(); 
+		let min = d.getMinutes(); 
+		let sec = d.getSeconds(); 
+
+		setInterval(function(){
+		clock_h.innerText = hr;
+		clock_m.innerText = min;
+		clock_s.innerText = sec;sec++;},1000)
+	</script>
+
+</body>
+</html>
+
+<!-- 
+=== hint ===
+setInterval 
+-->
