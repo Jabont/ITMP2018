@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Greeting Page</title>
+  <link rel="stylesheet" type="text/css" href="css.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="clock">It's just </div>
+	<div class="clock" id="clock_h">--</div>
+  <div class="clock">:</div>
+	<div class="clock" id="clock_m">--</div>
+  <div class="clock">:</div>
+	<div class="clock" id="clock_s">--</div>
+<img src="beach.jpg" alt="beach picture" id="pix" width="480" height="580">
+  <h1 class="greet">Hello there,</h1>
+  <h1 class="greet" id="greetname">...</h1>
+  <p id="desc">Come take a nap with us</p>
+
+  <div id="whitebox"></div>
+  <script type="text/javascript" src="js.js"></script>
+	<script>
+		setInterval(function(){
+			let d = new Date();
+			let sec = d.getSeconds();
+      let hr = d.getHours();
+  		let min = d.getMinutes();
+      clock_h.innerText = hr;
+  		clock_m.innerText = min;
+			clock_s.innerText = sec;
+		},1000);
+	</script>
+
+</body>
+</html>

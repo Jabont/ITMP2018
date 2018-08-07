@@ -1,0 +1,56 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
+body{
+  background: linear-gradient(to top left, #4AC29A, #BDFFF3);
+}
+
+.clock{
+  position: relative;
+  display: inline;
+  font-family: 'Open Sans', sans-serif;
+  color: #35524A;
+  font-size: 60px;
+  font-weight: bold;
+  left: 840px;
+  Top: 420px;
+}
+#whitebox{
+  border-radius: 25px;
+  background-color: #FCFFF7;
+  height: 550px;
+  padding: 20px;
+  margin: 20px;
+  z-index:0;
+}
+#pix{
+  position: absolute;
+  left: 45px;
+  Top: 114px;
+  -webkit-mask-image:-webkit-gradient(linear, left top, right top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+.greet{
+  font-family: 'Lobster', cursive;
+  position: absolute;
+  left: 450px;
+  font-size: 160px;
+  color: #35524A;
+}
+#greetname{
+  font-family: 'Lobster', cursive;
+  position: absolute;
+  left: 1160px;
+  font-size: 160px;
+  color: #35524A;
+}
+
+#desc{
+  font-family: 'Yellowtail', cursive;
+  position: absolute;
+  left: 540px;
+  Top: 235px;
+  font-size: 90px;
+  color: #35524A;
+}
