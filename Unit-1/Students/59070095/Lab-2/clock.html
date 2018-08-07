@@ -4,15 +4,22 @@
 	<title>Clock</title>
 </head>
 <body>
-	<p id="hr">This is paragraph with ID</p>
-	<p id="sec">This is paragraph with ID</p>
-	<p id="min">This is paragraph with ID</p>
-	<p id="d">This is paragraph with ID</p>
+	<p id="show_d"></p>
+	<p id="show_hr"</p>
+	<p id="show_min"</p>
+	<p id="show_sec"</p>
 	<script>
 		let d = new Date(); 
 		let hr = d.getHours(); 
 		let min = d.getMinutes(); 
-		let sec = d.getSeconds(); 
+		let sec = d.getSeconds();
+
+		setInterval(function(){
+		show_hr.innerText = hr;
+		show_d.innerText = d;
+		show_min.innerText = min;
+		show_sec.innerText = sec;
+		},1000)
 	</script>
 
 </body>
