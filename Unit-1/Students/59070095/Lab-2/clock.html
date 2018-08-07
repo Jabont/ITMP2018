@@ -9,12 +9,12 @@
 	<p id="show_min"</p>
 	<p id="show_sec"</p>
 	<script>
-		let d = new Date(); 
+
+		setInterval(function(){
+			let d = new Date(); 
 		let hr = d.getHours(); 
 		let min = d.getMinutes(); 
 		let sec = d.getSeconds();
-
-		setInterval(function(){
 		show_hr.innerText = hr;
 		show_d.innerText = d;
 		show_min.innerText = min;
