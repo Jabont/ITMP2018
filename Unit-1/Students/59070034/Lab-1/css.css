@@ -6,8 +6,9 @@
 }
 #welcome{
 	text-decoration: underline;
-	/*write css to animating welcome element*/
-}
+	animation: welcome .5s infinite;	
+	}
+	
 @keyframes welcome{
 	from{
 		color: red;
