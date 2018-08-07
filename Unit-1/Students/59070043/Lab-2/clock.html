@@ -4,12 +4,19 @@
 	<title>Clock</title>
 </head>
 <body>
-	
+	<p id = "showH"></p>
+	<p id = "showM"></p>
+	<p id = "showS"></p>
 	<script>
-		let d = new Date(); 
-		let hr = d.getHours(); 
-		let min = d.getMinutes(); 
-		let sec = d.getSeconds(); 
+		setInterval(function(){
+			let d = new Date(); 
+			let hr = d.getHours(); 
+			let min = d.getMinutes(); 
+			let sec = d.getSeconds(); 
+			showH.innerText = hr;
+			showM.innerText = min;
+			showS.innerText = sec;
+			showD.innerText = d;},1000)
 	</script>
 
 </body>
