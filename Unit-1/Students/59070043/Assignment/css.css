@@ -32,23 +32,6 @@ body{
   }
 }
 
-.train{
-  position: absolute;
-  bottom: -220px;
-  height: 315px;
-  width: 1500px;
-  right: 0px;
-  background: url(train.png);
-  background-repeat: repeat;
-  background-size: contain;
-  animation: driving 20s infinite linear both;
-}
-
-@keyframes driving {
-  0% {background-position: 0px 0px;}
-  100% {background-position:  6000px 0px;}
-}
-
 /*Right Side*/
 
 #word3{
