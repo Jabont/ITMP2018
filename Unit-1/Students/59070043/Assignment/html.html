@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+
+	<!--Train-->
+	<div class="train"></div>
+
+	<!--Heart-->
+	<img id="heart" src="heart.png" alt = "Heart Picture">
+
+	<!--Right Side-->
+	<p id = "word3">Now is</p>
+	<p class = "clock" id = "showH"></p>
+	<p class = "clock">:</p>
+	<p class = "clock" id = "showM"></p>
+	<p class = "clock">:</p>
+	<p class = "clock" id = "showS"></p>
+	<div id = "rbackcard"></div>
+	<div id = "rfrontcard"></div>
+
+	<!--Left Side-->
+	<p id = "word1"></p>
+	<p id = "word2">I'm Tiger</p>
+	<img id = "img" src="fb_prof.jpg" alt = "Facebook Profile Picture">
+	<div id = "lbackcard"></div>
+	<div id = "lfrontcard"></div>
+
+	<!--JavaScript-->
+	<script>
+		/*Interact with User*/
+		username = prompt('What\'s your nickname?');
+		/*Fill 0*/
+		function checkTime(i) {
+    		if (i < 10) {
+    			i = "0" + i
+    		};
+    		return i;
+		}
+		/*Time Count*/
+		setInterval(function(){
+			let d = new Date(); 
+			let hr = d.getHours(); 
+			let min = d.getMinutes(); 
+			let sec = d.getSeconds(); 
+			/*Hello in each time*/
+			if(hr>=4 && hr<12){
+				document.querySelector('#word1').innerText = "Good Morning\n"+username;
+			}
+			else if(hr>=12 && hr<16){
+				document.querySelector('#word1').innerText = "Good Afternoon\n"+username;
+			}
+			else if(hr>=16 && hr<19){
+				document.querySelector('#word1').innerText = "Good Evening\n"+username;
+			}
+			else{
+				document.querySelector('#word1').innerText = "Good Night\n"+username;
+			}
+			showH.innerText = checkTime(hr);
+			showM.innerText = checkTime(min);
+			showS.innerText = checkTime(sec);
+		},1000)
+	</script>
+
+</body>
+</html>

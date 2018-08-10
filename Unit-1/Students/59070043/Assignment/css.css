@@ -1,0 +1,181 @@
+body{
+  background: black;
+  animation:rainbowbg 4s infinite;
+}
+
+@keyframes rainbowbg{
+    0% {background: lightpink;}
+    33% {background: lightblue;}
+    66%{background: lightgreen;}
+    100%{background: lightyellow;}}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(NightoftheDragons.woff);
+}
+
+#heart{
+  position: absolute;
+  top: 3px;
+  animation: spiral 10s infinite;
+}
+
+@keyframes spiral {
+  0%{
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(720deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+.train{
+  position: absolute;
+  bottom: -220px;
+  height: 315px;
+  width: 1500px;
+  right: 0px;
+  background: url(train.png);
+  background-repeat: repeat;
+  background-size: contain;
+  animation: driving 20s infinite linear both;
+}
+
+@keyframes driving {
+  0% {background-position: 0px 0px;}
+  100% {background-position:  6000px 0px;}
+}
+
+/*Right Side*/
+
+#word3{
+  position: absolute;
+  font-family: 'myFirstFont';
+  font-size: 72px;
+  font-weight: bold;
+  z-index: 1;
+  top: 100px;
+  left: 920px;
+  animation:rainbow 60s infinite;
+  text-shadow: 1px 1px black;
+}
+
+.clock{
+  z-index: 1;
+  position: relative;
+  display: inline;
+  font-family: 'myFirstFont';
+  font-size: 128px;
+  font-weight: bold;
+  top: 260px;
+  left: 800px;
+  animation:rainbow 30s infinite;
+  text-align: center;
+  text-shadow: 1px 1px black;
+}
+
+@keyframes rainbow{
+    0% {color: purple;}
+    9% {color: lightblue;}
+    18% {color: darkblue;}
+    27%{color: green;}
+    36%{color: yellow;}
+    45%{color: darkorange;}
+    54%{color: red;}
+    63%{color: darkorange;}
+    72%{color: yellow;}
+    81%{color: green;}
+    90% {color: darkblue;}
+    100% {color: lightblue;}
+}
+
+#rbackcard {
+  background: #00ACC1;
+  z-index: -1;
+  position: fixed;
+  width: 400px;
+  height: 565.5px;
+  top: 45px;
+  right: 150px;
+}
+
+#rfrontcard {
+  background: white;
+  z-index: -1;
+  position: fixed;
+  width: 400px;
+  height: 565.5px;
+  top: 45px;
+  right: 150px;
+  transform: rotate(5deg);
+  box-shadow: 20px 20px 80px gray;
+}
+
+
+/*Left Side*/
+#word1{
+  position: absolute;
+  font-family: 'myFirstFont';
+  font-size: 72px;
+  font-weight: bold;
+  z-index: 1;
+  top: -14px;
+  left: 421px;
+  color: white;
+  text-align: center;
+  text-shadow: 3px 3px black;
+}
+
+#word2{
+  position: absolute;
+  font-family: 'myFirstFont';
+  font-size: 72px;
+  font-weight: bold;
+  z-index: 1;
+  top: 429px;
+  left: 462px;
+  animation:yellowglow 1s infinite;
+  text-shadow: 2px 2px black;
+}
+
+@keyframes yellowglow{
+    from{
+      color: lightyellow;
+    }
+    to{
+      color: yellow;
+    }
+}
+
+#img{
+  z-index: 0;
+  position: absolute;
+  top: 269px;
+  left: 420px;
+  border-radius: 50%;
+}
+
+#lbackcard {
+  background: #C51162;
+  z-index: -1;
+  position: fixed;
+  width: 400px;
+  height: 565.5px;
+  top: 45px;
+  left: 370px;
+}
+
+#lfrontcard {
+  background: #26C6DA;
+  z-index: -1;
+  position: fixed;
+  width: 400px;
+  height: 565.5px;
+  top: 45px;
+  left: 370px;
+  transform: rotate(-10deg);
+  box-shadow: 20px 20px 80px gray;
+}
