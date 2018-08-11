@@ -1,0 +1,38 @@
+.paragrahe_1{
+	font-family: Times New Roman;
+	color: #e65c00;
+	font-size: 250%;
+	text-align: center;
+
+}
+
+.paragrahe_2{
+	font-family: Arial;
+	font-size: 500%;
+	margin-top: 300px;
+	text-align: center;
+	animation: motion .40s infinite;
+}
+
+.head{
+	font-family: Courier New;
+	color: #ff1a1a;
+	text-align: center;
+	font-weight: bold;
+	font-size: 500%;
+}
+
+.body{
+	background-image: url(ccg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+@keyframes motion {
+	from {
+		color: #cc33ff;
+	}
+	to {
+		color: #99ff66;
+	}
+}
