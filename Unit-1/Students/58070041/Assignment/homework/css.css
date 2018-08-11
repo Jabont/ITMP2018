@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+body{
+	background-image: url("image/bg-main.jpg");
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: white;
+}
+
+.welcome{
+	text-align: right;
+	font-size: 50pt;
+	position: relative;
+	top: 130px;
+	right: 100px;
+}
+.line{
+	background-color: white;
+	width: 380px;
+	height: 5px;
+	position: relative;
+	float: right;
+	top: 100px;
+	right: 100px;
+}
+.hello{
+	font-size: 50pt;
+	top: 115px;
+	left: 865px;
+}
+
+p{
+	position: relative;
+	left: 195px;
+	font-size: 30pt;
+}
+
+span{
+		position: relative;
+}
+
+.date{
+	position: relative;
+	right: 135px;
+	font-size: 40pt;
+}
