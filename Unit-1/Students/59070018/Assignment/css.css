@@ -1,0 +1,42 @@
+.top{
+  font-family: unset;
+  color: #ff0000;
+  font-size: 400%;
+  text-align: right;
+  font-weight: bold;
+}
+
+.time{
+  font-family: sans-serif;
+  color: #0080ff;
+  font-size: 300%;
+  text-align: right;
+
+}
+
+.sayhi{
+  font-family: fantasy;
+  color: #ff8080;
+  font-size: 500%;
+  text-align: right;
+}
+
+.body{
+  background-image: url(manutd.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#logo{
+  position: absolute;
+  top: 10px;
+}
+
+#word{
+  position: absolute;
+  font-size: 72px;
+  font-weight: bold;
+  top: 200px;
+  color: #00bfff;
+  transform: rotate(-90deg);
+}
