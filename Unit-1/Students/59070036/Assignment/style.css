@@ -1,0 +1,19 @@
+body{
+	background: linear-gradient(to bottom right, navy, purple);
+	color: white;
+	text-align: center;
+}
+#name{
+	font-size: 4em;
+	font-family: 'Monoton', cursive;
+}
+#faculty{
+	font-size: 5em;
+	font-family: 'Abril Fatface', cursive;
+}
+.clock{
+	font-size: 7em;
+	margin-top: 0.5em;
+	font-family: 'Monoton', cursive;
+
+}
