@@ -32,13 +32,17 @@
 			show_min.innerText = min;
 			show_sec.innerText = sec;
 
+			if (hr >= 5 && hr < 12) {
+				document.getElementById("box-clock").style.background = '#80bfff';
+			}else if (hr >= 12 && hr < 18) {
+				document.getElementById("box-clock").style.background = '#ff6666';
+			} else if (hr >= 18 && hr < 24) {
+				document.getElementById("box-clock").style.background = '#9999ff';
+				document.body.style.background = '#404040';
+			}
 		},)
-		if (show_hr.innerText >= 5 && show_hr.innerText < 12) {
-			document.getElementsById('box-clock').style.backgroundColor = 'white';
-		}else if (show_hr >= 12 && show_hr < 16) {
-			document.getElementsById('box-clock').style.backgroundColor = 'red';
-		}
 		
-	</script>	
+	</script>
+
 </body>
 </html>

@@ -3,6 +3,10 @@ body{
 	font-family: Adamina;
 }
 
+img {
+	border-radius: 7px;
+}
+
 .head {
 	text-align: center;
 }
