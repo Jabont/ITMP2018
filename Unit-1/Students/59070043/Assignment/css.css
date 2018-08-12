@@ -5,9 +5,11 @@ body{
 
 @keyframes rainbowbg{
     0% {background: lightpink;}
-    33% {background: lightblue;}
-    66%{background: lightgreen;}
-    100%{background: lightyellow;}}
+    25% {background: lightblue;}
+    50%{background: lightgreen;}
+    75%{background: lightyellow;}
+    100%{background: lightpink;}
+  }
 
 @font-face {
     font-family: myFirstFont;
@@ -43,7 +45,7 @@ body{
   top: 100px;
   left: 920px;
   animation:rainbow 60s infinite;
-  text-shadow: 1px 1px black;
+  text-shadow: 1px 1px #0006;
 }
 
 .clock{
@@ -54,10 +56,10 @@ body{
   font-size: 128px;
   font-weight: bold;
   top: 260px;
-  left: 800px;
+  left: 830px;
   animation:rainbow 30s infinite;
   text-align: center;
-  text-shadow: 1px 1px black;
+  text-shadow: 1px 1px #0006;
 }
 
 @keyframes rainbow{
@@ -94,7 +96,7 @@ body{
   top: 45px;
   right: 150px;
   transform: rotate(5deg);
-  box-shadow: 20px 20px 80px gray;
+  box-shadow: 20px 20px 80px #0006;
 }
 
 
@@ -109,7 +111,7 @@ body{
   left: 421px;
   color: white;
   text-align: center;
-  text-shadow: 3px 3px black;
+  text-shadow: 3px 3px #0006;
 }
 
 #word2{
@@ -121,7 +123,7 @@ body{
   top: 429px;
   left: 462px;
   animation:yellowglow 1s infinite;
-  text-shadow: 2px 2px black;
+  text-shadow: 2px 2px #0006;
 }
 
 @keyframes yellowglow{
@@ -160,5 +162,5 @@ body{
   top: 45px;
   left: 370px;
   transform: rotate(-10deg);
-  box-shadow: 20px 20px 80px gray;
+  box-shadow: 20px 20px 80px #0006;
 }
