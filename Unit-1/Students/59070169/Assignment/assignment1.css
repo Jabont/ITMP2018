@@ -1,0 +1,93 @@
+body {
+	color: black;
+	background-image: url("background.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+h1 {
+	color: black;
+	text-shadow: -1px 0 black, 0 1px black, 5px 0 black, 0 -1px #616161;
+	font-size: 4.6em;
+	letter-spacing: 20px;
+	text-align: center;
+	font-family: 'Paytone One', sans-serif;
+	animation: greeting 2s infinite;
+}
+
+#username {
+	font-family: 'Caveat', cursive;
+	color: #424242;
+	text-align: center;
+	letter-spacing: 5px;
+	font-size: 4em;
+	position: relative;
+	bottom: 100px;
+	text-transform: uppercase;
+}
+
+#today {
+	font-size: 3.5em;
+	font-family: 'Marck Script', cursive;
+	color: #825a2c;
+}
+
+#today, span.date, span.dash{
+	display: inline;
+	position: relative;
+	bottom: 100px;
+	left: 325px;
+}
+
+strong {
+	font-size: 2em;
+	letter-spacing: 20px;
+	position: relative;
+	left: 345px;
+	bottom: 50px;
+}
+
+#show_d , #show_mth , #show_y , span.dash{
+	font-size: 3em;
+	display: inline;
+	font-family: 'Paytone One', sans-serif;
+}
+
+span.time , span.collon{
+	font-size: 5em;
+	font-family: 'Paytone One', sans-serif;
+	position: relative;
+	bottom: 75px;
+	left: 470px;
+}
+
+img.icon1 {
+	position: absolute;
+	top: 180px;
+	right: 260px;
+	animation: spin 3s infinite;
+}
+img.icon2 {
+	position: absolute;
+	top: 180px;
+	left: 240px;
+	animation: spin 3s infinite;
+}
+
+@keyframes greeting{
+	0% {color: #ef5350}
+    20% {color: #f44336}
+    40% {color: #4CAF50}
+    60% {color: #8BC34A}
+    80% {color: #9C27B0}
+    100% {color: #673AB7}
+}
+
+@keyframes spin {
+	from{
+		transform: rotate(0deg);
+	}to{
+		transform: rotate(360deg);
+	}
+}
