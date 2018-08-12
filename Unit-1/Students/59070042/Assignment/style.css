@@ -1,0 +1,35 @@
+body{
+	background-color: #e6e6e6;
+	font-family: Adamina;
+}
+
+.head {
+	text-align: center;
+}
+
+.greeting {
+	font-size: 30px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#box-clock {
+	text-align: center;
+	margin-top: 30px;
+	margin-left: 22%;
+	margin-right: 22%;
+	background-color: #80bfff; 
+	border-radius: 20px;
+}
+
+.clock {
+	display: inline;
+	font-size: 50px;
+	animation: txt-cl 10s infinite;
+}
+
+@keyframes txt-cl{
+	50% {color: white;}
+}

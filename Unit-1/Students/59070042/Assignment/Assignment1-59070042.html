@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Greeting!</title>
+	<link href='https://fonts.googleapis.com/css?family=Adamina' rel='stylesheet'>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div class="head">
+		<img src="Pic2.png" alt="Hello" width="800px">
+		<div class="greeting"><h1>Greeting!!!</h1></div>
+	</div>
+
+	<div id="box-clock">
+		<p class="clock">Now &nbsp;</p>
+		<p class="clock" id="show_hr"></p>
+		<p class="clock">:</p>
+		<p class="clock" id="show_min"></p>
+		<p class="clock">:</p>
+		<p class="clock" id="show_sec"></p>
+	</div>
+
+	<script>
+		setInterval(function(){
+			let d = new Date(); 
+			let hr = d.getHours(); 
+			let min = d.getMinutes(); 
+			let sec = d.getSeconds();
+
+			show_hr.innerText = hr;
+			show_min.innerText = min;
+			show_sec.innerText = sec;
+
+		},)
+		if (show_hr.innerText >= 5 && show_hr.innerText < 12) {
+			document.getElementsById('box-clock').style.backgroundColor = 'white';
+		}else if (show_hr >= 12 && show_hr < 16) {
+			document.getElementsById('box-clock').style.backgroundColor = 'red';
+		}
+		
+	</script>	
+</body>
+</html>
