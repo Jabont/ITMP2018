@@ -1,0 +1,74 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+    background-image: linear-gradient(to bottom, #ffc58c, #ffcb94, #ffd19c, #ffd7a4, #ffddad);
+    z-index: 0;
+}
+
+body {
+	
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+h1{
+	text-align: center;
+	font-size: 5em;
+	color: #E36C32;
+	text-shadow: 2px 2px 2px #A63E33;
+}
+
+h2{
+	text-align: center;
+	font-size: 3em;
+	color: #E36C32;
+	text-shadow: 2px 2px 2px #A63E33;
+}
+
+.bg {
+    background-image: url("moutain_bg_2.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+}
+
+.text {
+	margin: auto;
+	align-items: center;
+}
+
+#bird {
+	animation:bird_r 60s infinite;
+	margin: auto;
+	position: relative;
+	display: inline-flex;
+	z-index: 3;
+}
+
+#bird_2 {
+	animation:bird_l 30s infinite;
+	margin: auto;
+	top: 120px;
+	position: relative;
+	display: inline-flex;
+	z-index: 3;
+}
+
+
+@keyframes bird_r{
+	0%   {left: 575px;}
+    50%  {left: 100px;}
+    100% {left: 575px;}
+}
+
+@keyframes bird_l{
+	0%   {right: 550px;}
+    50%  {right: 0px;}
+    100% {right: 550px;}
+}
