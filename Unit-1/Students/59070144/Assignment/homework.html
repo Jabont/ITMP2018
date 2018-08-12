@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <title>Welcome to HTML Page</title>
+    <!-- add css -->
+</head>
+<body>
+    <div id="background"></div>
+    <h1 id="heading" style="text-align: center; color: magenta; font-size: 4em;">Welcome to my site.</h1>
+    <h2 style="text-align: center; color: orange; font-size: 2em"></h2>
+    <div style="text-align: center; font-size: 1.5em"> Current time is... 
+        <span id="sh_h" style="font-size: 1em"></span> : 
+        <span id="sh_m" style="font-size: 1em"></span> : 
+        <span id="sh_s" style="font-size: 1em"></span>
+    </div>
+    
+    <!-- add js -->
+    <script>
+        username = prompt('Please enter your name here.');
+        setInterval(function() {
+            let d = new Date(); 
+            let hr = d.getHours(); 
+            let min = d.getMinutes(); 
+            let sec = d.getSeconds(); 
+            sh_h.innerText = hr;
+            sh_m.innerText = min;
+            sh_s.innerText = sec;
+            if (username.length == 0) {username = "Guess"}
+            if (hr >= 0 && hr <= 11) {document.querySelector('h2').innerText = "Good morning, " + username + ".";}
+            else if (hr >= 12 && hr <= 17) {document.querySelector('h2').innerText = "Good afternoon, " + username + ".";}
+            else if (hr >= 18 && hr <= 23) {document.querySelector('h2').innerText = "Good evening, " + username + ".";}
+        }, 1000)
+    </script>
+</body>
+</html>

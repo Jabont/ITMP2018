@@ -1,19 +1,23 @@
+body {
+    font-family: itim;
+}
+
 .bold{
-	font-weight: bold;
+    font-weight: bold;
 }
 .center{
-	text-align: center;
+    text-align: center;
 }
 #welcome{
-	text-decoration: underline;
-	animation: welcome 0.15s infinite;
-	/*write css to animating welcome element*/
+    text-decoration: underline;
+    animation: welcome 0.15s infinite;
+    /*write css to animating welcome element*/
 }
 @keyframes welcome{
-	from{
-		color: red;
-	}
-	to{
-		color: black;
-	}
+    from{
+        color: red;
+    }
+    to{
+        color: black;
+    }
 }
