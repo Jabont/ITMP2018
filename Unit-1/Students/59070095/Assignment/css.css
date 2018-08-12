@@ -1,0 +1,40 @@
+html,body {
+	background-image: url("bg.png")
+}
+
+@font-face{
+	font-family: pastelcrayon;
+	src: url(pastelcrayon.ttf);
+}
+#greeting{
+	position: absolute;
+	font-family: 'pastelcrayon';
+	font-size: 72px;
+	font-weight: bold;
+	z-index: 1;
+	top: 100px;
+	left: 860px;
+	color: #ff0066;
+	border: 15px 15px black;
+	text-shadow: : 2px 2px green; 
+}
+.time{
+  position: relative;
+  display: inline;
+  font-family: 'pastelcrayon';
+  font-size: 72px;
+color : blue;
+  top: 380px;
+  left: 860px;
+  text-align: center;
+}
+.date{
+	position: relative;
+  display: inline;
+  font-family: 'pastelcrayon';
+  font-size: 72px;
+color : blue;
+  top: 280px;
+  left: 510px;
+  text-align: right;
+}
