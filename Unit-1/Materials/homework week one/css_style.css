@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'taxicabbold';
+    src: url('taxicab-bold-webfont.woff2') format('woff2'),
+         url('taxicab-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+  font-family: 'taxicabbold', sans-serif;
+  background-image: url(picture/6657.jpg);
+  background-repeat: no-repeat;
+}
+p{
+  position: relative;
+}
+#box_time{
+  position: absolute;
+  background-color: #fff;
+  bottom: 600px;
+  width: 150px;
+  height: 150px;
+  font-size: 2em;
+  border-radius: 150px;
+  color: #F08080;
+  border-style: dashed;
+}
+.hour{
+  left: 800px;
+}
+.min{
+  left: 1000px;
+}
+.sec{
+  left: 1200px;
+}
+.bg_left{
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bg_right{
+  height: 70%;
+  position: absolute;
+  top: 15%;
+  left: 42%;
+  box-shadow: 5px 5px 5px #aaa;
+
+}
+.text_name{
+	font-weight: bold;
+  font-size: 16px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.text_title{
+  margin-left: 520px;
+  margin-top: 380px;
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 2px 2px #fff;
+  color: #FFC300;
+  opacity: 0.8;
+}
+.text_undertitle{
+  margin-left: 520px;
+  text-align: center;
+  font-size: 20px;
+  text-shadow: 2px 2px #FFC300;
+  color: #FFF;
+  opacity: 0.8;
+}
+.text_date{
+  margin-left: 520px;
+  text-align: center;
+  font-size: 18px;
+  text-shadow: 1px 1px #fff;
+  color: #F08080;
+}
+
+#welcome{
+	text-decoration: underline;
+	/*write css to animating welcome element*/
+@keyframes welcome{
+	from{
+		color: red;
+	}
+	to{
+		color: black;
+	}
+}
