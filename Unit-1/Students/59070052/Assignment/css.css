@@ -1,0 +1,32 @@
+#box-clock {
+	position: relative;
+	text-align: center;
+	margin-top: 30px;
+	margin-left: 30%;
+	margin-right: 30%;
+	top: 10%;
+	border-radius: 10px;
+	font-family: sans-serif;
+}
+.clock {
+	display: inline;
+	font-size: 60px;
+	color: 	#4682B4;
+	
+}
+#head{
+	text-align: right;
+	margin-top: 30px;
+	margin-left: 30%;
+	margin-right: 1%;
+	
+	border-radius: 10px;
+	font-size: 30px;
+	font-family: sans-serif;
+	color: 	#4682B4;
+}
+body{
+	background-image: url("pix.jpg");
+	background-size: 100%;
+	
+}
