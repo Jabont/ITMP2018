@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<title></title>
+</head>
+<body>
+	<div class="back">
+		<div id="head"></div>
+	<div id="box-clock">
+		<p class="clock">Now &nbsp;</p>
+		<p class="clock" id="show_hr"></p>
+		<p class="clock">:</p>
+		<p class="clock" id="show_min"></p>
+		<p class="clock">:</p>
+		<p class="clock" id="show_sec"></p>
+	</div>
+</div>
+	
+
+	<script>
+		username = prompt('What your name?');
+		let d = new Date(); 
+			let hr = d.getHours();
+
+		if (hr >= 5 && hr < 12) {
+				window.alert("Good morning "+ username);
+			}else if (hr >= 12 && hr < 18) {
+				window.alert("Good afternoon "+ username);
+			} else if (hr >= 18 && hr < 24) {
+				window.alert("Good evening "+username);
+			}
+
+			head.innerText = "Greeting "+username+"!";
+
+		setInterval(function(){
+			let d = new Date(); 
+			let hr = d.getHours(); 
+			let min = d.getMinutes(); 
+			let sec = d.getSeconds();
+
+			show_hr.innerText = hr;
+			show_min.innerText = min;
+			show_sec.innerText = sec;
+
+
+			
+		},)
+		
+	</script>
+
+
+</body>
+</html>

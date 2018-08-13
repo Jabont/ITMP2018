@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+<title>Assign-1</title>
+</head>
+<body>
+<div class="clock">
+	<text id="show_hr"></text>
+	<text id="show_point"> : </text>
+	<text id="show_min"></text>
+	<text id="show_point"> : </text>
+	<text id="show_sec"></text>
+</div>
+
+	<div class="profile" id="name">Munada Wangmee</div>
+	<div class="profile" id="faculty">IT KMITL</div>
+	<img src="Line.png" alt="Line BG" width="1600" height="700">
+	
+	<script>
+		setInterval(function(){time()},1000);
+
+function time(){
+let d = new Date(); 
+let hr = d.getHours(); 
+let min = d.getMinutes(); 
+let sec = d.getSeconds(); 
+
+document.getElementById("show_hr").innerText = hr;
+document.getElementById("show_min").innerText = min;
+document.getElementById("show_sec").innerText = sec;
+}
+	</script>
+
+</body>
+</html>

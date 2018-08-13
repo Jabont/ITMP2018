@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to "Yellow" Page</title>
+	<link rel="stylesheet" type="text/css" href="css_style.css">
+</head>
+<body>
+	<img src="picture/left.jpg" class="bg_left">
+	<img src="picture/right.jpg" class="bg_right">
+	<p class="text_name">Kamonchanok Ssw.<br>about</p>
+	<p class="text_title">WELCOME TO MY TIMEZONE</p>
+	<p class="text_undertitle">-show time today-</p>
+	<br>
+	<p class="text_date" id="sh_d"></p>
+
+	<div id="box_time" class="hour" align="center">
+		<font size="4px">hour</font><br>
+		<font size="12px" id="sh_h"></font>
+	</div>
+	<div id="box_time" class="min" align="center">
+		<font size="4px">min</font><br>
+		<font size="12px" id="sh_m"></font>
+	</div>
+	<div id="box_time" class="sec" align="center">
+		<font size="4px">sec</font><br>
+		<font size="12px" id="sh_s"></font>
+	</div>
+
+
+	<script type="text/javascript" href="java_script.js">
+	username = prompt('What is your favorite color ??');
+	setInterval(function() {
+				 let d = new Date();
+				 let hour = d.getHours();
+				 let min = d.getMinutes();
+				 let sec = d.getSeconds();
+				 sh_h.innerText = hour;
+				 sh_m.innerText = min;
+				 sh_s.innerText = sec;
+				 sh_d.innerText = d
+		 }, 1000)
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+body{
+	height: 100%;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: white;
+
+}
+/*.bg {
+	height: 100%;
+	
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+.bold{
+	font-weight: bold;
+}
+.center {
+    text-align: center;
+    padding: 10px;
+}
+#crazy_box {
+	height: 200px;
+}
+#greet {
+	animation: welcome 2s infinite;
+}
+@keyframes welcome{
+	from {
+		color: white;
+	}
+	to {
+		color: blue;
+	}
+}

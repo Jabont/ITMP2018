@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head> <link rel="stylesheet" type="text/css" href="css.css"> </head>
+    <body>
+        
+    <h1><img src="hello.gif" class="center"></h1>
+        <h2 style="text-align: center; color: white; font-size: 2.5em"></h2>
+    <div id="box-clock">
+        <p class="clock">Now &nbsp;</p>
+        <p class="clock" id="show_hr"></p>
+        <p class="clock">:</p>
+        <p class="clock" id="show_min"></p>
+        <p class="clock">:</p>
+        <p class="clock" id="show_sec"></p><br>
+        <p class="show-hr">Hour</p>
+        <p class="show-min">Min</p>
+        <p class="show-sec">Sec</p>
+        
+    </div>
+    <h3 style="text-align: center; color: white; font-size: 1em">Made by 59070060</h2>
+
+     
+<script>
+     username = prompt('Please enter your name.');
+    setInterval(function(){
+            let day = new Date(); 
+            let hr = day.getHours(); 
+            let min = day.getMinutes(); 
+            let sec = day.getSeconds();
+
+            show_hr.innerText = hr;
+            show_min.innerText = min;
+            show_sec.innerText = sec;
+            if (hr >= 0 && hr <= 11) {document.querySelector('h1').innerText = "Good Morning " + username + ".";}
+            else if (hr >= 12 && hr <= 16) {document.querySelector('h2').innerText = "Good Afternoon " + username + ".";}
+            else if (hr >= 17 && hr <= 20) {document.querySelector('h2').innerText = "Good Evening " + username + ".";}
+            else if (hr >= 21 && hr <= 23) {document.querySelector('h2').innerText = "Good Night " + username + ".";}
+        },)
+
+
+</script>
+
+</body>
+
+</html>
