@@ -11,38 +11,38 @@ setInterval(function(){
 	let year = d.getFullYear(); 
 	let day = d.getDay();
 	let month_t = ["Januray","February","March","April","May","June","July","August","September","October","November","December"]
-	let day_t = ["MONDAY","TUESDAY","WEDNESDAY","THURSDAY","FRIDAY","SATURDAY","SUNDAY"]
-	if (day == 0) {
+	let day_t = ["SUNDAY","MONDAY","TUESDAY","WEDNESDAY","THURSDAY","FRIDAY","SATURDAY"]
+	if (day == 1) {
 		show_day.innerText = day_t[day];
 		document.querySelector('#show_day').style.color = 'yellow';
 	}
 
-	else if (day == 1) {
+	else if (day == 2) {
 		show_day.innerText = day_t[day];
 		document.querySelector('#show_day').style.color = 'pink';
 	}
 
-	else if (day == 2) {
+	else if (day == 3) {
 		show_day.innerText = day_t[day];
 		document.querySelector('#show_day').style.color = 'green';
 	}
 
-	else if (day == 3) {
+	else if (day == 4) {
 		show_day.innerText = day_t[day];
 		document.querySelector('#show_day').style.color = 'orange';
 	}
 
-	else if (day == 4) {
+	else if (day == 5) {
 		show_day.innerText = day_t[day];
 		document.querySelector('#show_day').style.color = 'blue';
 	}
 
-	else if (day == 5) {
+	else if (day == 6) {
 		show_day.innerText = day_t[day];
 		document.querySelector('#show_day').style.color = 'purple';
 	}
 
-	else if (day == 6) {
+	else if (day == 0) {
 		show_day.innerText = day_t[day];
 		document.querySelector('#show_day').style.color = 'red';
 	}
