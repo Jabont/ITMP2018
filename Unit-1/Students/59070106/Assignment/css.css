@@ -1,0 +1,29 @@
+.top{
+  font-family: unset;
+  color: #5C6BC0;
+  font-size: 400%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.time{
+  font-family: sans-serif;
+  color: #5C6BC0;
+  font-size: 300%;
+  text-align: center;
+
+}
+
+.sayhi{
+  font-family: fantasy;
+  color: #43A047;
+  font-size: 500%;
+  text-align: center;
+}
+
+.body{
+  background-image: url(wall.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
