@@ -1,0 +1,114 @@
+body{
+	font-family: OptimusPrinceps;
+	background-color:#100E11;
+	color:#F0E17C;
+
+}
+.greeting{
+	font-size: 40px;
+}
+
+.time{
+	text-align: left;
+	font-size: 20px;
+}
+
+#head{
+	font-size: 30px;
+	right: 5px;
+}
+
+.bondfire{
+	opacity: 1;
+	display: block;
+	transition: .5s ease;
+	backface-visibility: hidden;
+    position: relative;
+    top: 450px;
+    right: -140%;
+    
+}
+.box{
+	position: absolute;
+	width: 0%;
+	right: 30%;
+}
+.hide{
+	transition: .5s ease;
+  	opacity: 0;
+  	position: absolute;
+  	top: 600px;
+    right: -320px;
+}
+.box:hover .bondfire{
+	opacity: 0.3;
+}
+.box:hover .hide{
+	opacity: 1;
+}
+.text{
+	color:#F0E17C;
+	font-size: 16px;
+
+}
+
+
+
+@font-face{
+	font-family: "OptimusPrinceps";
+	src: url('OptimusPrinceps.ttf') format('truetype');
+}
+
+.fade-in {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+
+
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
