@@ -8,3 +8,5 @@ Condition
 - Time / Greeting / Something else
 - Technically (css/js)
 - Creativity
+
+ปล. โหลดฟอนต์ก่อนน้าาาาาา
