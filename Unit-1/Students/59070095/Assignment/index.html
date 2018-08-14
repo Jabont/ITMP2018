@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Clock</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+	<script type="text/javascript" src="js.js"></script>
+	<p id= "greeting">Greeting</p>
+	<p class = "time" id = "show_hr"></p>
+	<p class = "time">:</p>
+	<p class = "time" id = "show_min"></p>
+	<p class = "time">:</p>
+	<p class = "time" id = "show_sec"></p>
+	<p class = "date" id = "show_date"></p>
+	<p class = "date" id = "show_month"></p>
+	<p class = "date" id = "show_year"></p>
+
+
+
+<script>
+	setInterval(function(){
+			let d = new Date(); 
+		let hr = d.getHours(); 
+		let min = d.getMinutes(); 
+		let sec = d.getSeconds(); 
+		let date = d.getDate();
+		let month = d.getMonth();
+		let year = d.getFullYear(); 
+		let day = d.getDay();
+		let month_text = ["Januray","February","March","April","May","June","July","August","September","October","November","December"]
+		show_hr.innerText = hr;
+		show_min.innerText = min;
+		show_sec.innerText = sec;
+		show_month.innerText = month_text[month];
+		show_year.innerText = year;
+		show_date.innerText = date;
+		},1000)
+</script>
+</body>
+</html>

@@ -4,13 +4,11 @@ body{
 	color: white;
 
 }
-/*.bg {
-	height: 100%;
-	
+#bg {
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}*/
+}
 .bold{
 	font-weight: bold;
 }

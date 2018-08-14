@@ -11,6 +11,7 @@ setInterval(function() {
 
 	if (h <= 12) {
 		greeting = "Good Morning, " + username;
+		bg.style.backgroundImage  ="url(src/Morning.jpg)";
 	} else if (h <= 18) {
 		greeting = "Good Evening, " + username;
 	} else {
