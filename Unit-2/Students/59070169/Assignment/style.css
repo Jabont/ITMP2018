@@ -1,0 +1,47 @@
+h1{
+	color: #FAFAFA;
+}
+#name{
+	padding-top: 30px;
+}
+h2{
+	color: #424242;
+}
+h3{
+	color: #de791a;
+	background-color: #FFECB3;
+	width: 50%;
+}
+b{
+	color: #ea5a6f;
+}
+
+#sec1{
+	background-image: linear-gradient(to right ,#9b3cb7,#ff396f);
+}
+#sec2{
+	background-image: linear-gradient(to right ,#d73e68,#fbc79a);
+}
+#info{
+    width: 500px;
+    height: 50px;
+    padding: 20px;
+    background-color: white;
+}
+#mypic{
+	border: 4px solid #333655;
+}
+#shadow {
+	box-shadow: 10px 10px grey;
+}
+#click{
+	box-shadow: 4px 4px grey;
+}
+#social{
+	display: inline;
+	width: 60px;
+	height: 60px;
+}
+#text{
+	font-family: 'Patrick Hand', cursive;
+}
