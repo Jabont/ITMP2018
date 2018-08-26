@@ -1,0 +1,8 @@
+.body{
+  background-image: url(wall.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#box {
+	box-shadow: 10px 10px blue;
+}
