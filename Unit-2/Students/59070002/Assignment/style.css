@@ -1,0 +1,41 @@
+body{
+	font-family: 'Anton', sans-serif;
+
+}
+#part_one{
+    background-image: url("picture/bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px; 
+    width: 100%;
+    opacity: 0.4;
+}
+
+#boxtxt{
+    width: 40%;
+    position: absolute;
+    margin-top: 300px;
+    align-content: center;
+    box-shadow: 3px 3px 3px #000;
+}
+
+#boxtxt_info{
+    width: 38%;
+    position: absolute;
+    background-color: #fdd25a;
+    margin-top: 355px;
+    align-content: center;
+    box-shadow: 3px 3px 3px #000;
+}
+
+
+#pic{
+    width: 100%;
+}
+
+#text{
+    text-shadow: 2px 2px 3px #fff;
+    font-size: 50px;
+}
