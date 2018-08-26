@@ -1,0 +1,19 @@
+.heading {
+    animation-name: back;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+p {
+    font-family: 'Kanit', sans-serif;
+    color: #FDFEFE;
+}
+
+@keyframes back {
+    0%   {background-color: #641E16;}
+    25%  {background-color: #7D6608;}
+    50%  {background-color: #145A32;}
+    75%  {background-color: #1B4F72;}
+    100% {background-color: #4A235A;}
+}
