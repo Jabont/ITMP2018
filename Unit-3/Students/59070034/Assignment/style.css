@@ -25,15 +25,15 @@
 }
 
 div.xl{
-	width: 1000px;
+	width: 500px;
 	height: 500px;
 }
 div.l{
-	width: 1000px;
+	width: 400px;
 	height: 400px;
 }
 div.m{
-	width: 1000px;
+	width: 300px;
 	height: 300px;
 }
 div.s{
@@ -44,15 +44,26 @@ div.xs{
 	width: 100px;
 	height: 100px;
 }
-#flame{
-	transition: all .3s;
-	display: flex;
-	flex-wrap: inherite;
-	flex-direction: row;
-	justify-content:center;
+
+div{
+	transition:all .3s;
 }
-#sky{
+
+body{
+	width: 100vw;
+	height: 100vh;
 	display: flex;
-	flex-direction: row;
-	justify-content:center;
+	justify-content: center;
+    align-items: center;
+}
+
+.canvas{
+	width: 900px;
+	height: 600px;
+}
+
+#clound{
+	position: absolute;
+	width: 300px;
+	height: 300px;
 }
