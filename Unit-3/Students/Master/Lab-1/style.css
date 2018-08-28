@@ -47,4 +47,5 @@ div.xs{
 
 div{
 	transition:all .3s;
+	display: inline-block;
 }
