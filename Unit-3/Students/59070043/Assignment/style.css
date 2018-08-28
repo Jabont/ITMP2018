@@ -44,3 +44,18 @@ div.xs{
 	width: 100px;
 	height: 100px;
 }
+div{
+	transition:all .3s;
+	display: inline-block;
+}
+body{
+	width: 100vw;
+	height: 100vh;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.canvas{
+	width: 900px;
+	height: 600px;
+}
