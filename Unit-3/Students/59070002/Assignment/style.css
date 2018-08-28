@@ -1,0 +1,69 @@
+.relative{
+	position: relative;
+}
+.absolute{
+	position: absolute;
+}
+.fixed{
+	position: fixed;
+}
+.static{
+	position: static;
+}
+
+.top{
+	top: 10px;
+}
+.left{
+	left: 10px;
+}
+.right{
+	right: 10px;
+}
+.bottom{
+	bottom: 10px;
+}
+
+div.xl{
+	width: 500px;
+	height: 500px;
+}
+div.l{
+	width: 400px;
+	height: 400px;
+}
+div.m{
+	width: 300px;
+	height: 300px;
+}
+div.s{
+	width: 200px;
+	height: 200px;
+}
+div.xs{
+	width: 100px;
+	height: 100px;
+}
+div{
+	transition:all .3s;
+	display: inline-block;
+}
+body{
+	width: 100vw;
+	height: 100vh;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.canvas{
+	width: 900px;
+	height: 600px;
+	background-color: grey;
+}
+
+.sky{
+	position: absolute;
+	width: 900px;
+	background-color: #81D4FA;	
+	height: 200px;
+}
