@@ -43,4 +43,21 @@ div.s{
 div.xs{
 	width: 100px;
 	height: 100px;
+	line-height: 100px;
+}
+
+div{
+	transiton:all .3s;
+}
+
+.canvas{
+	width: 900px;
+	height: 600px;
+	overflow: hidden;
+	position: relative;
+}
+
+#sky {
+	position: absolute;
+	top: 0;
 }
