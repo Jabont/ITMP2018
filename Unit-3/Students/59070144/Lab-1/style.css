@@ -47,3 +47,17 @@ div.xs{
 div {
 	transition: all .3s;
 }
+.in{
+	display: inline-block;
+	/*float: left;*/
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+.canvas {
+
+}
