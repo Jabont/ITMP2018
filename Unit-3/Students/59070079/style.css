@@ -48,5 +48,12 @@ div.xs{
 div{
 	transition:all .3s;
 	display: inline-block;
-	
+}
+
+body{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-item: center;
 }
