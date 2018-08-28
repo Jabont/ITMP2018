@@ -1,4 +1,4 @@
-.relative{
++.relative{
 	position: relative;
 }
 .absolute{
@@ -46,13 +46,16 @@ div.xs{
 }
 div{
 	transition:all .3s;
-	display: inline-block;
 }
+
 body{
 	width: 100vw;
 	height: 100vh;
-	display:flex;
+	display: flex;
 	justify-content: center;
-	
+    align-items: center;
+}
 
+.canvas{
+	width: 900px;
 }
