@@ -3,7 +3,6 @@
 }
 .absolute{
 	position: absolute;
-	bottom: RIGHT;
 }
 .fixed{
 	position: fixed;
@@ -13,16 +12,16 @@
 }
 
 .top{
-	top: 0;
+	top: 10px;
 }
 .left{
-	left: 0;
+	left: 10px;
 }
 .right{
-	right: 0;
+	right: 10px;
 }
 .bottom{
-	bottom: 0;
+	bottom: 10px;
 }
 
 div.xl{
@@ -44,4 +43,8 @@ div.s{
 div.xs{
 	width: 100px;
 	height: 100px;
+}
+
+div{
+	transition: all .3s;
 }
