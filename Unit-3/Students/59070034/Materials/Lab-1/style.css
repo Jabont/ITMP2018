@@ -12,16 +12,16 @@
 }
 
 .top{
-	top: 0;
+	top: 10px;
 }
 .left{
-	left: 0;
+	left: 10px;
 }
 .right{
-	right: 0;
+	right: 10px;
 }
 .bottom{
-	bottom: 0;
+	bottom: 10px;
 }
 
 div.xl{
@@ -44,11 +44,9 @@ div.xs{
 	width: 100px;
 	height: 100px;
 }
-<<<<<<< HEAD
 
 div{
 	transition:all .3s;
-	display: inline-block;
 }
 
 body{
@@ -56,7 +54,9 @@ body{
 	height: 100vh;
 	display: flex;
 	justify-content: center;
-	align-item: center;
+    align-items: center;
 }
-=======
->>>>>>> ae07b988cb57f7da842d280469410aa065d41212
+
+.canvas{
+	width: 900px;
+}
