@@ -44,3 +44,7 @@ div.xs{
 	width: 100px;
 	height: 100px;
 }
+
+div{
+	transition:all .3s;
+}
