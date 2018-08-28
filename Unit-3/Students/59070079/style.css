@@ -1,0 +1,80 @@
+.relative{
+	position: relative;
+}
+.absolute{
+	position: absolute;
+}
+.fixed{
+	position: fixed;
+}
+.static{
+	position: static;
+}
+
+.top{
+	top: 0;
+}
+.left{
+	left: 0;
+}
+.right{
+	right: 0;
+}
+.bottom{
+	bottom: 0;
+}
+
+div.xl{
+	width: 500px;
+	height: 500px;
+}
+div.l{
+	width: 400px;
+	height: 400px;
+}
+div.m{
+	width: 300px;
+	height: 300px;
+}
+div.s{
+	width: 200px;
+	height: 200px;
+}
+div.xs{
+	width: 100px;
+	height: 100px;
+}
+<<<<<<< HEAD
+
+div{
+	transition:all .3s;
+	display: inline-block;
+}
+
+body{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.canvas{
+	width: 1000px;
+	height: 700px;
+	position: relative;
+}
+
+.sky{
+	position: absolute;
+	width: 1000px;
+	height: 550px;
+}
+
+.sun{
+	position: relative;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	color: orange;
+}

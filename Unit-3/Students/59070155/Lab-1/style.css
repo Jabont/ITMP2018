@@ -1,0 +1,58 @@
+.relative{
+	position: relative;
+}
+.absolute{
+	position: absolute;
+}
+.fixed{
+	position: fixed;
+}
+.static{
+	position: static;
+}
+
+.top{
+	top: 10px;
+}
+.left{
+	left: 10px;
+}
+.right{
+	right: 10px;
+}
+.bottom{
+	bottom: 10px;
+}
+
+div.xl{
+	width: 1000px;
+	height: 500px;
+}
+div.l{
+	width: 1000px;
+	height: 400px;
+}
+div.m{
+	width: 1000px;
+	height: 300px;
+}
+div.s{
+	width: 200px;
+	height: 200px;
+}
+div.xs{
+	width: 100px;
+	height: 100px;
+}
+#flame{
+	transition: all .3s;
+	display: flex;
+	flex-wrap: inherite;
+	flex-direction: row;
+	justify-content:center;
+}
+#sky{
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+}
