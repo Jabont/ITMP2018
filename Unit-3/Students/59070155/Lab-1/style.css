@@ -25,15 +25,15 @@
 }
 
 div.xl{
-	width: 500px;
+	width: 1000px;
 	height: 500px;
 }
 div.l{
-	width: 400px;
+	width: 1000px;
 	height: 400px;
 }
 div.m{
-	width: 300px;
+	width: 1000px;
 	height: 300px;
 }
 div.s{
@@ -43,4 +43,16 @@ div.s{
 div.xs{
 	width: 100px;
 	height: 100px;
+}
+#flame{
+	transition: all .3s;
+	display: flex;
+	flex-wrap: inherite;
+	flex-direction: row;
+	justify-content:center;
+}
+#sky{
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
 }
