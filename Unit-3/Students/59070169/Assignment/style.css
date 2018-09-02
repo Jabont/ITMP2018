@@ -1,0 +1,283 @@
+.relative{
+	position: relative;
+}
+.absolute{
+	position: absolute;
+}
+.fixed{
+	position: fixed;
+}
+.static{
+	position: static;
+}
+
+.top{
+	top: 0;
+}
+.left{
+	left: 0;
+}
+.right{
+	right: 0;
+}
+.bottom{
+	bottom: 0;
+}
+
+div.xl{
+	width: 500px;
+	height: 500px;
+}
+div.l{
+	width: 400px;
+	height: 400px;
+}
+div.m{
+	width: 300px;
+	height: 300px;
+}
+div.s{
+	width: 200px;
+	height: 200px;
+}
+div.xs{
+	width: 100px;
+	height: 100px;
+}
+.relative{
+	position: relative;
+}
+.absolute{
+	position: absolute;
+}
+.fixed{
+	position: fixed;
+}
+.static{
+	position: static;
+}
+
+.top{
+	top: 0;
+}
+.left{
+	left: 0;
+}
+.right{
+	right: 0;
+}
+.bottom{
+	bottom: 0;
+}
+
+div.xl{
+	width: 500px;
+	height: 500px;
+}
+div.l{
+	width: 400px;
+	height: 400px;
+}
+div.m{
+	width: 300px;
+	height: 300px;
+}
+div.s{
+	width: 200px;
+	height: 200px;
+}
+div.xs{
+	width: 100px;
+	height: 100px;
+}
+body{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+.canvas{
+	width: 900px;
+	height: 600px;
+	position: relative;
+	overflow: hidden;
+}
+#sky{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 40%;
+	left: 0;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+
+}
+#sun1{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 150px;
+	height: 150px;
+	background-color: #c92e2a;
+	border-radius: 100%
+}
+#sun2{
+	position: relative;
+	top: 16px;
+	left: 16px;
+	width: 120px;
+	height: 120px;
+	background-color: #f24936;
+	border-radius: 100%
+}
+#sun3{
+	position: relative;
+	top: 15px;
+	left: 15px;
+	width: 90px;
+	height: 90px;
+	background-color: #f08541;
+	border-radius: 100%
+}
+#sun4{
+	position: relative;
+	top: 16px;
+	left: 16px;
+	width: 60px;
+	height: 60px;
+	background-color: #fdcb6c;
+	border-radius: 100%
+}
+#cloud_l1{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+	animation: cloud 10s infinite;
+}
+#cloud_l2{
+	position: absolute;
+	top: 0px;
+	left: 85px;
+	z-index: 3;
+	animation: cloud 10s infinite;
+}
+#cloud_r1{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: 3;
+	animation: cloud 10s infinite;
+}
+
+#cloud_r2{
+	position: absolute;
+	top: 0px;
+	right: 85px;
+	z-index: 2;
+	animation: cloud 10s infinite;
+}
+#balloon1{
+	position: absolute;
+	bottom: 80px;
+	left: 100px;
+	z-index: 4;
+	animation: balloon 14s infinite;
+}
+#balloon2{
+	position: absolute;
+	top: 225px;
+    right: 258px;
+	z-index: 4;
+	animation: balloon 10s infinite;
+}
+#balloon3{
+	position: absolute;
+	top: 295px;
+    right: 770px;
+	z-index: 4;
+	animation: balloon 16s infinite;
+}
+#balloon4{
+	position: absolute;
+	top: 95px;
+    right: 85px;
+	z-index: 4;
+	animation: balloon 12s infinite;
+}
+#tent{
+	position: absolute;
+	top: 390px;
+	left: 10px;
+	z-index: 3;
+	opacity: 0.85;
+}
+#tree_l{
+	position: absolute;
+	top: 390px;
+    left: -105px;
+	z-index: 3;
+}
+#tree_r{
+	position: absolute;
+	top: 445px;
+    right: 218px;
+    opacity: 0.7;
+	z-index: 2;
+}
+#wheel{
+	position: absolute;
+	top: 206px;
+    left: 145px;
+	opacity: 0.7;
+	z-index: 2;
+}
+#game1{
+	position: absolute;
+	top: 460px;
+    right: 310px;
+	z-index: 3;
+	opacity: 0.85;
+}
+#game2{
+	position: absolute;
+	top: 460px;
+    right: -8px;
+	z-index: 3;
+	opacity: 0.85;
+}
+#viking{
+	position: absolute;
+	top: 365px;
+    right: 9px;
+	z-index: 2;
+	opacity: 0.8;
+}
+#train{
+	position: absolute;
+	top: 465px;
+	right: 0px;
+	z-index: 5;
+  	animation: train 20s linear infinite;
+}
+@keyframes cloud {
+	0%{transform: translateX(0px);}
+	30%{transform: translateX(20px);}
+	60%{transform: translateX(10px);}
+	100%{transform: translateX(0px);}
+}
+@keyframes balloon {
+	0%{transform: translateY(0px);}
+	50%{transform: translateY(50px);}
+	100%{transform: translateY(0px);}
+ }
+@keyframes train {
+  0% {
+    right: -270px;
+  }
+  100% {
+    right: 100%;
+  }
+}

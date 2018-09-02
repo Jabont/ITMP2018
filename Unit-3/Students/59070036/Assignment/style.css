@@ -27,6 +27,7 @@
 div.xl{
 	width: 500px;
 	height: 500px;
+	background-color: #B0E0E6; 
 }
 div.l{
 	width: 400px;
@@ -44,61 +45,47 @@ div.xs{
 	width: 100px;
 	height: 100px;
 }
+
 div{
 	transition:all .3s;
-	display: inline-block;
 }
+
 body{
 	width: 100vw;
 	height: 100vh;
-	display:flex;
+	display: flex;
 	justify-content: center;
-	align-items: center;
+    align-items: center;
 }
+
 .canvas{
 	width: 900px;
-	height: 600px;
-}
-#sky{
-	width: 100%;
-	height: 40%;
-	display: flex;
-	
-}
-#sun{
-	position: relative;
-	left: 225px;
-
-}
-#land{
-	width: 100%;
-	height: 60%;
-	display: flex;
-	
-}
-#cloud{
-	width: 15%;
-	position: relative;
-	left: 150px;
-	top: 20px;
-
 }
 
-#cloud2{
-	width: 15%;
-	position: relative;
-	left: 300px;
-	top: 20px;
-
+.ticket{
+	position: fixed;
+    width: 20em;
+    height: auto;
+    top: 10em;
+    right: 30em;
 }
-#carousel{
-	position: relative;
-	left: 315px;
-	top: 40px;
+.ground{
+	position: absolute;
+	justify-content: center;
+    width: 500px;
+    height: 500px;
 }
-#fwheel{
-	width: 30%;
-	position: relative;
-	top: 80px;
+.sky{
+	position: static;
+}
 
+.player{
+	position: absolute;
+	justify-content: center;
+    width: 500px;
+    height: 500px;
+	}
+#viking{
+	width: 350px;
+	height: 350px;
 }
