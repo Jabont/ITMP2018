@@ -48,7 +48,6 @@ div.xs{
 div{
 	transition:all .3s;
 }
-
 body{
 	width: 100vw;
 	height: 100vh;
@@ -56,14 +55,59 @@ body{
 	justify-content: center;
     align-items: center;
 }
-
 .canvas{
 	width: 900px;
 	height: 600px;
+	position: relative;
+	overflow: hidden;
+}
+#sky{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 40%;
+	left: 0;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+
+}
+#sun{
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+}
+#sun-wrap{
+		position: relative;
+	top: 0;
+	width: 100px;
+	height: 100px;
+	left: 0;
 }
 
-#clound{
+.cloud {
+	width: 250px; height: 50px;
+	background: #f2f9fe;
+
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+
 	position: absolute;
-	width: 300px;
-	height: 300px;
+	margin: 30px 200px 20px;
+}
+
+#cloud2{
+	width: 180px; height: 50px;
+	margin: 4px 216px 20px;
+}
+
+#cloud3{
+	width: 180px; height: 50px;
+	margin: -38px 194px 22px -324px;
+}
+
+#cloud4{
+	width: 180px; height: 50px;
+	margin: -15px 197px 40px -362px;
 }
