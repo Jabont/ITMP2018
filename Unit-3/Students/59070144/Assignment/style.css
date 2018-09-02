@@ -18,10 +18,10 @@
 	left: 10px;
 }
 .right{
-	right: 10px;
+	right: 0px;
 }
 .bottom{
-	bottom: 10px;
+	bottom: 0px;
 }
 
 div.xl{
@@ -46,6 +46,7 @@ div.xs{
 }
 div {
 	transition: all .3s;
+    font-family: 'Arvo', serif;
 }
 .in{
 	display: inline-block;
@@ -53,6 +54,7 @@ div {
 }
 body {
 	display: flex;
+    font-family: 'Indie Flower', cursive;
 	justify-content: center;
 	align-items: center;
 	width: 100vw;
@@ -60,4 +62,44 @@ body {
 }
 .canvas {
 
+}
+
+.train {
+    animation: train 15s infinite;
+}
+
+.castle {
+    background-color: gray;
+    border: 3px;
+    font-size: 27px;
+    animation: castle 2.5s alternate infinite;
+}
+
+@keyframes train {
+  0% {
+    right: -25%;
+  }
+  25% {
+    right: 10%;
+  }
+  35% {
+    right: 10%;
+  }
+  65% {
+    right: 65%;
+  }
+  75% {
+    right: 65%;
+  }
+  100% {
+    right: 110%;
+  }
+}
+
+@keyframes castle {
+    0% {color: red;}
+    25% {color: yellow;}
+    50% {color: green;}
+    75% {color: blue;}
+    100% {color: white;}
 }
