@@ -62,7 +62,13 @@ body{
 	width: 900px;
 }
 
-
+.ticket{
+	position: fixed;
+    width: 20em;
+    height: auto;
+    top: 10em;
+    right: 30em;
+}
 .ground{
 	position: absolute;
 	justify-content: center;
@@ -73,3 +79,13 @@ body{
 	position: static;
 }
 
+.player{
+	position: absolute;
+	justify-content: center;
+    width: 500px;
+    height: 500px;
+	}
+#viking{
+	width: 350px;
+	height: 350px;
+}
