@@ -1,0 +1,115 @@
++.relative{
+	position: relative;
+}
+.absolute{
+	position: absolute;
+}
+.fixed{
+	position: fixed;
+}
+.static{
+	position: static;
+}
+
+.top{
+	top: 10px;
+}
+.left{
+	left: 10px;
+}
+.right{
+	right: 10px;
+}
+.bottom{
+	bottom: 10px;
+}
+
+div.xl{
+	width: 500px;
+	height: 500px;
+}
+div.l{
+	width: 400px;
+	height: 400px;
+}
+div.m{
+	width: 300px;
+	height: 300px;
+}
+div.s{
+	width: 200px;
+	height: 200px;
+}
+div.xs{
+	width: 100px;
+	height: 100px;
+}
+div{
+	transition:all .3s;
+}
+
+body{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+.canvas{
+	width: 800px;
+	height: 600px;
+}
+#sky{
+	width: 100%;
+	height: 30%;
+	display: flex;
+}
+#sun{
+	position: relative;
+	left: 350px;
+	width: 20%;
+	height: 20%;
+}
+#field{
+	width:100%;
+	height: 70%;
+	display: flex;
+
+}
+#building{
+	top: 20px;
+	width: 60%;
+	height: 60%;
+	position: relative;
+	z-index: 1;
+}
+#ferris{
+	top :500px;
+	width: 60%;
+	height: 60%;
+	position: fixed;
+	left: 500px;
+	z-index: 4;
+}
+#building2{
+	top: 50px;
+	width: 70%;
+	height: 70%;
+	position: relative;
+	z-index: 2;
+}
+#carousel{
+	width: 70%;
+	height: 60%;
+	position: fixed;
+	left: 150px;
+	z-index: 3;
+}
+#roller{
+	left: 550px;
+	width: 70%;
+	height: 60%;
+	position: fixed;
+	z-index: 0;
+}

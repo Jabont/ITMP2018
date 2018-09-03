@@ -44,3 +44,37 @@ div.xs{
 	width: 100px;
 	height: 100px;
 }
+<<<<<<< HEAD
+
+div{
+	transition:all .3s;
+	display: inline-block;
+}
+
+body{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.canvas{
+	width: 1000px;
+	height: 700px;
+	position: relative;
+}
+
+.sky{
+	position: absolute;
+	width: 1000px;
+	height: 550px;
+}
+
+.sun{
+	position: relative;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	color: orange;
+}

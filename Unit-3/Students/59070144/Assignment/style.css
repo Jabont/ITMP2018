@@ -1,0 +1,105 @@
+.relative{
+	position: relative;
+}
+.absolute{
+	position: absolute;
+}
+.fixed{
+	position: fixed;
+}
+.static{
+	position: static;
+}
+
+.top{
+	top: 10px;
+}
+.left{
+	left: 10px;
+}
+.right{
+	right: 0px;
+}
+.bottom{
+	bottom: 0px;
+}
+
+div.xl{
+	width: 500px;
+	height: 500px;
+}
+div.l{
+	width: 400px;
+	height: 400px;
+}
+div.m{
+	width: 300px;
+	height: 300px;
+}
+div.s{
+	width: 200px;
+	height: 200px;
+}
+div.xs{
+	width: 100px;
+	height: 100px;
+}
+div {
+	transition: all .3s;
+    font-family: 'Arvo', serif;
+}
+.in{
+	display: inline-block;
+	/*float: left;*/
+}
+body {
+	display: flex;
+    font-family: 'Indie Flower', cursive;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+.canvas {
+
+}
+
+.train {
+    animation: train 15s infinite;
+}
+
+.castle {
+    background-color: gray;
+    border: 3px;
+    font-size: 27px;
+    animation: castle 2.5s alternate infinite;
+}
+
+@keyframes train {
+  0% {
+    right: -25%;
+  }
+  25% {
+    right: 10%;
+  }
+  35% {
+    right: 10%;
+  }
+  65% {
+    right: 65%;
+  }
+  75% {
+    right: 65%;
+  }
+  100% {
+    right: 110%;
+  }
+}
+
+@keyframes castle {
+    0% {color: red;}
+    25% {color: yellow;}
+    50% {color: green;}
+    75% {color: blue;}
+    100% {color: white;}
+}
