@@ -58,20 +58,40 @@ body{
 .canvas{
 	width: 900px;
 	height: 600px;
-	position: absolute;
-	overflow: hidden;
+
 }
 #sky{
-	position: absolute;
-	top: 0;
 	width: 100%;
 	height: 40%;
-	left: 0;
+	display: flex;
 
 }
 
-#sun{
-	position: relative;
-	top: 0;
-	border-radius: 100%
+
+.grass{
+	position: absolute;
+	justify-content: center;
+    width: 900px;
+    top: 30%;
+}
+.sun{
+	position: absolute;
+	justify-content: center;
+    width: 200px;
+
+}
+.cloud{
+	position: absolute;
+	left: 65%;
+    width: 200px;
+}
+.wheel{
+	position: absolute;
+    width: 550px;
+    bottom: 19%;
+}
+.dp{
+	position: absolute;
+    width: 1300px;
+    bottom: 20%;
 }
