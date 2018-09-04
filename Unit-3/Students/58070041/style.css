@@ -1,0 +1,74 @@
+html
+{
+    overflow: hidden;
+}
+
+body
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body
+{
+    height: 100%;
+}
+.relative{
+	position: relative;
+}
+.absolute{
+	position: absolute;
+}
+.fixed{
+	position: fixed;
+}
+.static{
+	position: static;
+}
+
+.top{
+	top: 10px;
+}
+.left{
+	left: 10px;
+}
+.right{
+	right: 10px;
+}
+.bottom{
+	bottom: 20px;
+}
+.frame{
+
+    display:  flex;
+    height: 100%;
+    align-items:  flex-end;
+    width: 100%;
+}
+
+.roller{
+	position: absolute;
+	width: 15%;
+	height: 15%;
+	bottom: 10%;
+	left: 18%;
+}
+
+.house{
+	position: absolute;
+	width: 15%;
+	height: 15%;
+	bottom: 10%;
+	right: 18%;
+}
+
+.rotate{
+	position: absolute;
+	width: 15%;
+	height: 15%;
+	bottom: 10%;
+	left: 45%;
+}
+.rainbow{
+	position: absolute;
+}
