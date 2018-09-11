@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>animal</title>
+	<title>Animal Farm</title>
 </head>
 <body>
-animal farm
+	<a href="addpet.php">Add Pet</a>
+
 </body>
 </html>
