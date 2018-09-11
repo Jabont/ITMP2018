@@ -1,10 +1,10 @@
 <?php
-function conn(){
-	$servername = "localhost";
-	$username = "zp10960_farm";
-	$password = "jbBF2S34DwdDfvN";
-	$dbname = "zp10960_farm";
-	$conn = new mysqli($servername, $username, $password, $dbname);
+	function conn(){
+		$servername = "localhost";
+		$username = "zp10959_farm";
+		$password = "siK6PHmUfmBFDM5J";
+		$dbname = "zp10959_farm";
+		$conn = new mysqli($servername, $username, $password, $dbname);
 
 	if ($conn->connect_error) {
 		die("Connection failed: " . $conn->connect_error);
