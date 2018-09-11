@@ -14,3 +14,25 @@
 		}
 	}
 ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add Pet</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<?php
+	if (isset($_POST['send'])) {
+	 	echo "ได้รับข้อมูลแล้ว";
+	 } 
+	 ?>
+
+	<form method="POST">
+		<input type="text" name="pet_name" placeholder="Pet's Name">
+		<input type="text" name="pet_caption" placeholder="Pet's Caption">
+		<button name="send">Submit</button>
+	</form>
+
+</body>
+</html>
