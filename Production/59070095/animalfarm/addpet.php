@@ -1,9 +1,9 @@
 <?php
 function conn(){
 	$servername = "localhost";
-	$username = "zp10960_farm";
-	$password = "jbBF2S34DwdDfvN";
-	$dbname = "zp10960_farm";
+	$username = "zp10958";
+	$password = "hGgB!w3Z64";
+	$dbname = "zp10958_hello";
 	$conn = new mysqli($servername, $username, $password, $dbname);
 
 	if ($conn->connect_error) {
@@ -31,8 +31,6 @@ function conn(){
 		$conn->query($sql);
 		echo "ได้รับข้อมูลแล้ว";
 	} 
-
-	// UPDATE pet SET pet_video = "http://youtube.com/___" WHERE pet_id = 1;
 	?>
 
 	<form method="POST">
