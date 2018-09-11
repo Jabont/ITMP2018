@@ -25,6 +25,8 @@
 	<?php
 	if (isset($_POST['send'])) {
 		$conn = conn();
+		$pet_name = $_POST['pet_name'];
+		$pet_caption = $_POST['pet_caption'];
 		$sql = "INSERT INTO pet (pet_name, pet_caption) VALUES ('John','Doe')";
 		$conn->query($sql);
 	 	echo "ได้รับข้อมูลแล้ว";
