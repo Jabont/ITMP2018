@@ -1,16 +1,10 @@
-<?php
-	function conn(){
-		$servername = "localhost";
-		$username = "zp10959_farm";
-		$password = "siK6PHmUfmBFDM5J";
-		$dbname = "zp10959_farm";
-		$conn = new mysqli($servername, $username, $password, $dbname);
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animal Farm</title>
+</head>
+<body>
+	<a href="addpet.php">Add Pet</a>
 
-		if ($conn->connect_error) {
-			die("Connection failed: " . $conn->connect_error);
-		} 
-		else{
-			return $conn;
-		}
-	}
-?>
+</body>
+</html>
