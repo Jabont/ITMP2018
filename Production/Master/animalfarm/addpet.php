@@ -31,6 +31,8 @@ function conn(){
 		$conn->query($sql);
 		echo "ได้รับข้อมูลแล้ว";
 	} 
+
+	// UPDATE pet SET pet_video = "http://youtube.com/___" WHERE pet_id = 1;
 	?>
 
 	<form method="POST">
