@@ -1,9 +1,9 @@
 <?php
 	function conn(){
 		$servername = "localhost";
-		$username = "okkachasom_san";
-		$password = "8Oit27SSQm";
-		$dbname = "okkachasom_san";
+		$username = "zp10965";
+		$password = "AGLe-324dm";
+		$dbname = "zp10965_test";
 		$conn = new mysqli($servername, $username, $password, $dbname);
 
 		if ($conn->connect_error) {
@@ -23,11 +23,12 @@
 </head>
 <body>
 	<?php
+	$pet_name = $_POST['pet_name'];
+	$pet_caption = $_POST['pet_caption'];
 	if (isset($_POST['send'])) {
 		$conn = conn();
-		$pet_name = $_POST['pet_name'];
-		$pet_caption = $_POST['pet_caption'];
-		$sql = "INSERT INTO pet (pet_name,pet_caption) VALUES ('$pet_name', '$pet_caption')";
+		$sql = "INSERT INTO pet (pet_name,pet_caption)
+			    values ('$pet_name','$pet_caption')";
 		$conn->query($sql);
 	 	echo "ได้รับข้อมูลแล้ว";
 	 } 
