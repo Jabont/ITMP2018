@@ -32,6 +32,9 @@
 		$conn->query($sql);
 	 	echo "ได้รับข้อมูลแล้ว";
 	 } 
+
+	 //UPDATE pet SET pet_video="" WHERE pet_id=;
+
 	 ?>
 
 	<form method="POST">
