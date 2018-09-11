@@ -41,7 +41,6 @@
 			$conn = conn();
 			$sql = "SELECT * FROM pet";
 			$result = $conn->query($sql);
-			session_start();
 
 			if ($result->num_rows > 0) {
 
