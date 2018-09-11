@@ -2,7 +2,7 @@
 	function conn(){
 		$servername = "localhost";
 		$username = "zp10959_farm";
-		$password = "siK6PHmUfmBFDM5J";
+		$password = "";
 		$dbname = "zp10959_farm";
 		$conn = new mysqli($servername, $username, $password, $dbname);
 
