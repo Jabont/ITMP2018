@@ -48,22 +48,168 @@ div.xs{
 div{
 	transition:all .3s;
 }
-
 body{
 	width: 100vw;
 	height: 100vh;
 	display: flex;
 	justify-content: center;
-    align-items: center;
+	align-items: center;
 }
-
 .canvas{
 	width: 900px;
 	height: 600px;
+	position: relative;
+	overflow: hidden;
+}
+#sky{
+	position: relative;
+	top: 0;
+	width: 100%;
+	height: 40%;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+#sun{
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+}
+#sunlight{
+	background: #f79d3d;
+	width: 120%;
+	height: 120%;
+	border-radius: 100%;
+	opacity: 0.5;
+	position: absolute;
+}
+#sun-wrap{
+	position: relative;
+	top: 0;
+	width: 100px;
+	height: 100px;
+	left: 0;
 }
 
-#clound{
+.cloud {
+	width: 250px; height: 50px;
+	background: #f2f9fe;
+
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+
 	position: absolute;
-	width: 300px;
-	height: 300px;
+	margin: 30px 200px 20px;
+}
+#cloud2{
+	width: 180px; height: 50px;
+	margin: 4px 216px 20px;
+}
+#cloud3{
+	width: 180px; height: 50px;
+	margin: -38px 194px 22px -324px;
+}
+#cloud4{
+	width: 180px; height: 50px;
+	margin: -15px 197px 40px -362px;
+}
+
+#park-wrap{
+	position: relative;
+	top: 0;
+	width: 200px;
+	height: 200px;
+	left: 0;
+}
+
+.wheel {
+	position: absolute;
+	border:10px solid white;
+	height:500px;
+	border-radius:50%;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	width:500px;
+}
+
+#wheel_center{
+	position: absolute;
+	border:10px solid grey;
+	height:50px;
+	border-radius:50%;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	width:50px;
+	bottom: -65px;
+	right: -68px;
+}
+#wheel_base{
+	position: absolute;
+    height: 350px;
+    width: 90px;
+    bottom: -353px;
+    right: -88px;
+
+}
+
+.line{
+	width: 250px;
+	height: 177px;
+	border-bottom: 10px solid white;
+	position: absolute;
+	right: -252px;
+	bottom: -7px;
+	transform: rotate(90deg);
+}
+#line2{
+	transform: rotate(26deg);
+	right: -96px;
+	bottom: 4px;
+}
+#line3{
+	transform: rotate(152deg);
+    right: -307px;
+    bottom: -146px;
+}
+#line4{
+	transform: rotate(141deg);
+    right: -121px;
+    bottom: -272px;
+}
+#line5{
+	transform: rotate(216deg);
+    right: -210px;
+    bottom: -257px;
+}
+
+.cabin {
+	width: 130px;
+	height: 105px;
+	background: #BA1200;
+	position: absolute;
+	border-radius: 20px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 100px;
+	align-items: center;
+	right: -111px;
+	top: -25px;
+}
+#cabin2{
+	left: 400px;
+	top: 118px;
+}
+#cabin3{
+	left: -52px;
+	top: 118px;
+}
+#cabin4{
+	left: -25px;
+	top: 346px;
+}
+#cabin5{
+	left: 410px;
+	top: 346px;
 }

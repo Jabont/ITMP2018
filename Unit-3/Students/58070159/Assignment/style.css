@@ -1,0 +1,212 @@
+body {
+	width: 95vw;
+	height: 95vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#frame {
+	position: relative;
+	width: 720px;
+	height: 480px;
+	padding: 10px;
+}
+#sky {
+	position: relative;
+	width: 700px;
+	height: 295px;
+	animation: bg_change 15s infinite linear alternate;
+}
+#earth {
+	position: relative;
+	width: 700px;
+	height: 165px;
+	bottom: 0px;
+	background-color: #336600;
+}
+#shine {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	animation: rotate 2.5s infinite linear;
+}
+#sun {
+	position: relative;
+	width: 50px;
+	height: 50px;
+}
+.arola {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+}
+#arola2 {
+	transform: rotate(45deg);
+}
+#arola3 {
+	transform: rotate(22.5deg);
+}
+#arola4 {
+	transform: rotate(67.5deg);
+}
+#moon {
+	position: relative;
+	width: 50px;
+	height: 50px;
+	top: 250px;
+	left: 250px;
+	background-color: #ffff99;
+}
+#walk {
+	position: absolute;
+	top: 180px;
+	left: 210px;
+	width: 300px;
+	height: 300px;
+	animation: rotate 30s infinite linear;
+}
+
+#ferris_wheel {
+	position: absolute;
+	width: 200px;
+	height: 220px;
+	top: 130px;
+	left: 500px;
+}
+#skeletal {
+	position: absolute;
+	width: 20px;
+	height: 120px;
+	top: 100px;
+	left: 90px;
+}
+#wheel {
+	position: absolute;
+	width: 180px;
+	height: 180px;
+	top: 10px;
+	left: 10px;
+	border: 6px solid #323232;
+}
+.sling {
+	position: absolute;
+	width: 4px;
+	height: 180px;
+	left: 98px;
+	top: 10px;
+	background-color: #505050;
+}
+#sling2 {
+	transform: rotate(45deg);
+}
+#sling3 {
+	transform: rotate(90deg);
+}
+#sling4 {
+	transform: rotate(135deg);
+}
+#rotate_wheel {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	animation: rotate 5s infinite reverse linear;
+}
+.basket {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background-color: #FFF;
+}
+#basket1 {
+	left: 80px;
+}
+#basket2 {
+	top: 80px;
+}
+#basket3 {
+	top: 80px;
+	left: 160px;
+}
+#basket4 {
+	top: 160px;
+	left: 80px;
+}
+#basket5 {
+	top: 20px;
+	left: 20px;
+}
+#basket6 {
+	top: 140px;
+	left: 20px;
+}
+#basket7 {
+	top: 20px;
+	left: 140px;
+}
+#basket8 {
+	top: 140px;
+	left: 140px;
+}
+
+
+#viking {
+	position: absolute;
+	top: 130px;
+	left: 80px;
+}
+#rotate_viking {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	animation: rotate_viking 1s infinite alternate;
+}
+#sling5 {
+	height: 90px;
+	top: 90px;
+	left: 65px;
+	transform: rotate(45deg);
+}
+#sling6 {
+	height: 90px;
+	top: 90px;
+	left: 130px;
+	transform: rotate(135deg);
+}
+#boat {
+	position: absolute;
+	width: 130px;
+	height: 40px;
+	top: 150px;
+	left: 35px;
+	background-color: #66ffcc;
+}
+div {
+	transition: all .3s;
+}
+
+@keyframes rotate {
+	from {
+		transform: rotate(45deg);
+	}
+	to {
+		transform: rotate(405deg);
+	}
+}
+
+@keyframes rotate_viking {
+	from {
+		transform: rotate(45deg);
+	}
+	to {
+		transform: rotate(-45deg);
+	}
+}
+
+@keyframes bg_change {
+	from {
+		background-color: #03A9F4;
+	}
+	to {
+		background-color: #070050;
+	}
+}

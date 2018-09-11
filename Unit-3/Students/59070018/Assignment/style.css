@@ -44,19 +44,56 @@ div.xs{
 	width: 100px;
 	height: 100px;
 }
-
 div{
 	transition:all .3s;
+	display: inline-block;
 }
-
 body{
 	width: 100vw;
 	height: 100vh;
-	display: flex;
+	display:flex;
 	justify-content: center;
-    align-items: center;
+	align-items: center;
 }
 
 .canvas{
-	width: 900px;
+	width: 800px;
+	height: 500px;
+}
+
+#sky{
+	display: flex;
+}
+#sun{
+	position: relative;
+	left: 20px;
+}
+#park{
+	width: 100%;
+	height: 60%;
+	display: flex;
+}
+#cloud{
+	position: relative;
+	left: 80px;
+	top: 20px;
+}
+#cloud2{
+	position: relative;
+	left: 450px;
+	top: 20px;
+}
+#wheel{
+	position: relative;
+	top: 5px;
+}
+#seesaw{
+	position: relative;
+	right: 30px;
+	top: 100px;
+}
+#carousel{
+	position: relative;
+	right: 10px;
+	top: 20px;
 }
