@@ -1,18 +1,18 @@
 <?php
 	function conn(){
 		$servername = "localhost";
-		$username = "okkachasom_san";
-		$password = "8Oit27SSQm";
-		$dbname = "okkachasom_san";
+		$username = "zp10959_farm";
+		$password = "siK6PHmUfmBFDM5J";
+		$dbname = "zp10959_farm";
 		$conn = new mysqli($servername, $username, $password, $dbname);
 
-		if ($conn->connect_error) {
-			die("Connection failed: " . $conn->connect_error);
-		} 
-		else{
-			return $conn;
-		}
+	if ($conn->connect_error) {
+		die("Connection failed: " . $conn->connect_error);
+	} 
+	else{
+		return $conn;
 	}
+}
 ?>
 
 <!DOCTYPE html>
@@ -29,9 +29,9 @@
 		$pet_caption = $_POST['pet_caption'];
 		$sql = "INSERT INTO pet (pet_name,pet_caption) VALUES ('$pet_name', '$pet_caption')";
 		$conn->query($sql);
-	 	echo "ได้รับข้อมูลแล้ว";
-	 } 
-	 ?>
+		echo "ได้รับข้อมูลแล้ว";
+	} 
+	?>
 
 	<form method="POST">
 		<input type="text" name="pet_name" placeholder="Pet's Name">
