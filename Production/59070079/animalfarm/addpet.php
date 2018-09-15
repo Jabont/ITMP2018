@@ -25,7 +25,7 @@ function conn(){
 	<?php
 	if (isset($_POST['send'])) {
 		$conn = conn();
-		$sql = "INSERT INTO pet (pet_name,pet_caption) VALUES ('John', 'Doe')";
+		$sql = "INSERT INTO pet (pet_name, pet_caption, pet_video) VALUES ('$pet_name', '$pet_caption', '$pet_video')";
 		$conn->query($sql);
 		echo "ได้รับข้อมูลแล้ว";
 	} 
@@ -34,6 +34,7 @@ function conn(){
 	<form method="POST">
 		<input type="text" name="pet_name" placeholder="Pet's Name">
 		<input type="text" name="pet_caption" placeholder="Pet's Caption">
+		<input type="text" name="pet_video" placeholder="pet_video">
 		<button name="send">Submit</button>
 	</form>
 
