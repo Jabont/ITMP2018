@@ -20,8 +20,10 @@ function conn(){
 <head>
 	<title>Add Pet</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="http://jabont.com/jayss/jayss.css">
 </head>
-<body>
+<body class="bg-yellow">
 	<?php
 	if (isset($_POST['send'])) {
 		$conn = conn();
