@@ -32,7 +32,8 @@ function conn(){
 		echo "ได้รับข้อมูลแล้ว";
 	} 
 	?>
-
+	<h1>Page for add pet</h1> <br>
+	
 	<form method="POST">
 		<input type="text" name="pet_name" placeholder="Pet's Name">
 		<input type="text" name="pet_caption" placeholder="Pet's Caption">
