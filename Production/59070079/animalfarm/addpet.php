@@ -24,8 +24,13 @@ function conn(){
 	<link rel="stylesheet" type="text/css" href="http://jabont.com/jayss/jayss.css">
 </head>
 <body class="bg-yellow">
-
-	for the video, you should put the link link http://youtude.....com <br> <br>
+	<div>
+		<section class="padding bg-green">
+			<p style="color:white;">for the video, you should put the link link http://youtude.....com</p>
+			<br> <br>
+		</section>
+	</div>
+	
 
 	<?php
 	if (isset($_POST['send'])) {
@@ -38,16 +43,19 @@ function conn(){
 		echo "thank you for uplord";
 	} 
 	?>
-	<h1>Page for add pet</h1> <br>
+	<div>
+		<h1>Page for add pet</h1> <br>
 	
-	<form method="POST">
-		<input type="text" name="pet_name" placeholder="Pet's Name">
-		<input type="text" name="pet_caption" placeholder="Pet's Caption">
-		<input type="text" name="pet_video" placeholder="Pet's video">
-		<button name="send">Submit</button>
-	</form> <br>
+		<form method="POST">
+			<input type="text" name="pet_name" placeholder="Pet's Name">
+			<input type="text" name="pet_caption" placeholder="Pet's Caption">
+			<input type="text" name="pet_video" placeholder="Pet's video">
+			<button name="send">Submit</button>
+		</form> <br>
 
-	<button><a href="index.php">Go back</a></button>
+		<button><a href="index.php">Go back</a></button>
+	</div>
+	
 
 
 

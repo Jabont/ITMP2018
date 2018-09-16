@@ -6,9 +6,14 @@
 	<link rel="stylesheet" type="text/css" href="http://jabont.com/jayss/jayss.css">
 </head>
 <body class="bg-yellow">
-	<h1 class="t-center">Uplord your pet!</h1> <br>
-	<img src="pet.jpg"> <br>
-	<p class="text"> <a href="addpet.php">Add Pet</a> </p>
+	<div>
+
+		<h1 class="padding bg-green t-center" style="color:white;">Uplord your pet!</h1> <br>
+		<img src="pet.jpg"> <br>
+		<h3 class="t-center"><a href="addpet.php">add pet</a></h3>
+	
+	</div>
+	
 
 </body>
 </html>
