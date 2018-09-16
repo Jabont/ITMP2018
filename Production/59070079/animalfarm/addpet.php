@@ -24,6 +24,8 @@ function conn(){
 	<link rel="stylesheet" type="text/css" href="http://jabont.com/jayss/jayss.css">
 </head>
 <body class="bg-yellow">
+
+	for the video, you should put the link link http://youtude.....com
 	<?php
 	if (isset($_POST['send'])) {
 		$conn = conn();
