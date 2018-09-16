@@ -4,7 +4,6 @@
 	<title>Animal Farm</title>
 </head>
 <body>
-	<a href="addpet.php">Add Pet</a>
-
+	<center><a href="addpet.php">Add Pet Here</a></center>
 </body>
 </html>

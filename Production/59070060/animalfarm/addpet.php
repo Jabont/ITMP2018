@@ -18,6 +18,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 	<title>Add Pet</title>
 	<meta charset="utf-8">
 </head>
@@ -38,6 +39,34 @@
 		<input type="text" name="pet_caption" placeholder="Pet's Caption">
 		<button name="send">Submit</button>
 	</form>
+<div><br><br>
+	<table border="1px">
+		<tr>
+			<th>Pet's ID</th>
+			<th>Pet's Name</th>
+			<th>Pet's Caption</th>
+			</tr>
+		<tr>
+			<?php
+				$conn = conn();  
+				$sql = "SELECT * FROM pet";
+				$result = $conn->query($sql);
+				if ($result->num_rows > 0) {
+    				// output data of each row
+    				while($row = $result->fetch_assoc()) {
+    					?>
+        				<td><?=$row["pet_id"]?></td>
+        				<td><?=$row["pet_name"]?></td>
+        				<td><?=$row["pet_caption"]?></td>
+    				<?php
+    				}
+				} else {
+    				echo "0 results";
+				}
+			?>
+		</tr>
+	</table>
+	</div>
 
 </body>
 </html>
