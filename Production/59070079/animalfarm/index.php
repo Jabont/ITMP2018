@@ -2,19 +2,18 @@
 <html>
 <head>
 	<title>Animal Farm</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="audit.css">
 	<link rel="stylesheet" type="text/css" href="http://jabont.com/jayss/jayss.css">
 </head>
-<body>
-	<a href="addpet.php">Add Pet</a>
+<body class="bg-yellow">
+	<div>
 
-	<form>
-
-		<input type="text" name="pet_name" placeholder="Pet Name">
-		<input type="text" name="pet_caption" placeholder="Pet Caption">
-		<button name="send">Submit</button>
-		
-	</form>
+		<h1 class="padding bg-green t-center" style="color:white;">Uplord your pet!</h1> <br>
+		<img src="pet.jpg"> <br>
+		<h3 class="t-center"><a href="addpet.php">add pet</a></h3>
+	
+	</div>
+	
 
 </body>
 </html>
