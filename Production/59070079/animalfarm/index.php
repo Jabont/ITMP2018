@@ -7,14 +7,6 @@
 </head>
 <body>
 	<a href="addpet.php">Add Pet</a>
-
-	<form>
-
-		<input type="text" name="pet_name" placeholder="Pet Name">
-		<input type="text" name="pet_caption" placeholder="Pet Caption">
-		<button name="send">Submit</button>
-		
-	</form>
-
+	
 </body>
 </html>
