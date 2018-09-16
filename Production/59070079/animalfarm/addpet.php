@@ -55,9 +55,6 @@ function conn(){
 
 		<button><a href="index.php">Go back</a></button>
 	</div>
-	
-
-
 
 </body>
 </html>
