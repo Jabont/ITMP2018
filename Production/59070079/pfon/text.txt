@@ -1,0 +1,14 @@
+INSERT INTO orders (
+
+`order_name` ,
+`order_number` ,
+`order_price` ,
+`order_total` ,
+`c_name`
+)
+VALUES (
+ 'กะเพราไก่', '1', '30', '30', 'จาบอน'
+)
+
+UPDATE orders SET order_name = 'ราดหน้า',
+stamp = NOW( ) WHERE orders.order_id =2 
