@@ -1,11 +1,12 @@
 b = document.querySelectorAll('div');
-first = 300
-b2 = b.length 
-p2 = first
+first = 270;
+allb = b.length;
+second = first;
+n = first / (allb-1);
 for (i = 0; i<b.length; i++) {
-	console.log("i = " + i)
-	b[i].style.background = "hsl("+(first)+",100%,80%)"
-	p2 = p2 - b2
-	first = p2 
-	console.log("color = "+ p2)
+	console.log("i = " + i);
+	b[i].style.background = "hsl("+(second)+",100%,80%)";
+	second = second - n;
+	
+	console.log("color = "+ second);
 };
