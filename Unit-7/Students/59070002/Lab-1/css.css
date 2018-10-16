@@ -1,0 +1,19 @@
+.parent {
+	background: yellow; 
+
+}
+.child {
+	background: red;
+	margin: 1em;
+	width: 1em;
+	height: 1em;
+	display: inline-block;
+}
+.child_circle {
+	background: blue;
+	margin: 1em;
+	width: 1em;
+	height: 1em;
+	display: inline-block;
+	border-radius: 1em;
+}
