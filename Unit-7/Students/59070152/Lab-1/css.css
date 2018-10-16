@@ -1,0 +1,11 @@
+.parent{
+	background: #ffeec9;
+}
+
+.child{
+	background: hsl(0,100%,70%);
+	margin: 1em;
+	width: 1em;
+	height: 1em;
+	display: inline-block;
+}
