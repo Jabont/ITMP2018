@@ -23,13 +23,12 @@
 	height: 100%;
 	float: left;
 }
-
 .battery.red div{
-	background: red;
+    background: red;
 }
 .battery.orange div{
-	background: orange;
+    background: orange;
 }
 .battery.green div{
-	background: green;
+    background: lightgreen;
 }

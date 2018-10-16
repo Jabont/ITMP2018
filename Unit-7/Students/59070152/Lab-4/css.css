@@ -19,17 +19,23 @@
 }
 .battery div{
 	background: #fff;
-	width: 10%;
+	width: 1%;
 	height: 100%;
 	float: left;
 }
 
 .battery.red div{
-	background: red;
+    background: hsl(0,100%,70%);
 }
+
 .battery.orange div{
-	background: orange;
+    background: hsl(35,100%,70%);
 }
+
 .battery.green div{
-	background: green;
+    background: hsl(100,100%,70%);
+}
+
+.batter.dynamic div{
+    background: hsl(0, 100%,70%);
 }
