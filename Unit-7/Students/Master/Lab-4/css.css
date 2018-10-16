@@ -1,0 +1,25 @@
+.battery {
+    width: 400px;
+    padding: 1em;
+    height: 150px;
+    background: #000;
+    margin: 2em auto;
+    border-radius: 6px;
+    position: relative;
+}
+.battery::after {
+    content: " ";
+    background: black;
+    position: absolute;
+    right: -0.8em;
+    top: calc(50% - 2em);
+    width: 2em;
+    height: 4em;
+    border-radius: 5px;
+}
+.battery div{
+	background: #fff;
+	width: 10%;
+	height: 100%;
+	float: left;
+}
