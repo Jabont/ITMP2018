@@ -1,3 +1,6 @@
 function addChild(){
-	alert('555');
+	parent = document.querySelector('.parent');
+	child = document.createElement('div');
+	child.classList.add('child');
+	parent.appendChild(child);
 }
