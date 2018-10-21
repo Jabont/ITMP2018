@@ -87,7 +87,7 @@
 item{
 	width: 50px;
 	height: 50px;
-	background: yellow;
+	background: green;
 	position: absolute;
 	transition:all .3s;
 }
@@ -103,4 +103,12 @@ item#switch {
 
 item.cherry{
 	background: pink;
+}
+
+item.banana{
+	background: yellow;
+}
+
+item.free{
+	background: transparent;
 }

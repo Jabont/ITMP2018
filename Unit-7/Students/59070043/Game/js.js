@@ -1,19 +1,23 @@
 function addChild(){
+	var myArray = ["cherry","banana","free"];
+	var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
 	parent = document.querySelector('#item-wrap');
 	child = document.createElement('item');
 	child.setAttribute('x','3');
 	child.setAttribute('y','-1');
-	child.classList.add('cherry');
+	child.classList.add(randomItem);
 	parent.appendChild(child);
+	console.log(randomItem);
 }
-
 play = setInterval(function(){
-	cherry = document.querySelectorAll('.cherry');
-	for (var i = 0 ; i < cherry.length; i++) {
-		yNow = parseInt(cherry[i].getAttribute('y'));
-		cherry[i].setAttribute('y',yNow+1);
-	};
-	
+	var myArray = ["cherry","banana","free"];
+	for(i=0;i<myArray.length;i++){
+		fruit = document.querySelectorAll('.'+myArray[i]);
+		for (var j = 0 ; j < fruit.length; j++) {
+			yNow = parseInt(fruit[j].getAttribute('y'));
+			fruit[j].setAttribute('y',yNow+1);
+		};
+	}
 },1000);
 
 // โจทย์
