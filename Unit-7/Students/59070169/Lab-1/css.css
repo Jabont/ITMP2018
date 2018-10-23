@@ -1,0 +1,17 @@
+.parent{
+	background: yellow;
+
+}
+.child{
+	background: red;
+	width: 1em;
+	height: 1em;
+	margin: 1em;
+	display: inline-block;
+	
+}
+.drawcircle{
+	border-radius: 100%;
+	background: magenta;
+	display: inline-block;
+}

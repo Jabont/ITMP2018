@@ -1,0 +1,77 @@
+body {
+	background: #1e1e1e;
+	color: #FFF;
+	font-family: Arial,Helvetica,sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 10px;
+    overflow: hidden;
+    width: 100%;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    vertical-align: baseline;
+}
+li span {
+	display: block;
+	text-align: center;
+	padding: 20px 16px;
+	width: 20%;
+	height: 100%;
+}
+
+ /*Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+footer {
+	background: #1c210d;
+}
+.menu_button{
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 40px;
+}
+#menu{
+	width: 100%;
+}
+#logo{
+	background: #1c210d;
+	font: normal normal normal 46px/1.4em 'Mr De Haviland',cursive;
+	width: 250px;
+	height: 100px;
+	text-align: center;
+}
+#container {
+	width: 982px;
+	margin: auto;
+}
+.center {
+	margin: auto;
+	width: 60%;
+	padding: 10px;
+}
+#home-img {
+	width: 100%;
+	/*padding: 0px auto;*/
+	align-content: center;
+}
+#img {
+	margin: 0px auto;
+}
+.active {
+    background-color: #4CAF50;
+}
