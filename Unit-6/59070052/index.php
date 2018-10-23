@@ -15,12 +15,7 @@
 <body>
 	<?php
 	function conn(){
-		// $servername = "localhost";
-		// $username = "root";
-		// $password = "";
-		// $dbname = "pfon";
-		// $conn = new mysqli($servername, $username, $password, $dbname);
-		$conn = new mysqli("localhost", "root","", "pfon");
+		$conn = new mysqli($servername, $username, $password, $dbname);
 		return $conn;
 	}
 
