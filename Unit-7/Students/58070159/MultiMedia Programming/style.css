@@ -1,42 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400');
+
 body {
 	background: #1e1e1e;
-	color: #FFF;
-	font-family: Arial,Helvetica,sans-serif;
+	color: white;
+	font-family:'Open Sans', sans-serif;
+	font-size: normal normal normal 14px/1.4em;
+	margin: 0px 8px 8px 8px;
 }
 
 ul {
     list-style-type: none;
     margin: 0 auto;
-    padding: 10px;
+    padding: 0px 0px 0px 0px;
     overflow: hidden;
     width: 100%;
 }
 li {
+	margin: 0px 10px 0px 0px;
     float: left;
 }
-li a {
-    display: block;
-    color: white;
+li a{
+	font-size: 0.9em;
+	display: block;
+	color: white;
     text-align: center;
-    padding: 14px 16px;
+	padding: 12px 34px;
+	margin-top: 50px;
     text-decoration: none;
     vertical-align: baseline;
 }
 li span {
 	display: block;
 	text-align: center;
-	padding: 20px 16px;
+	padding: 35px 70px;
 	width: 20%;
 	height: 100%;
 }
 
  /*Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #111;
+	background-color: #303030;
+	color: #B2B1B1; 
 }
 
 footer {
+	padding-top: 30px;
 	background: #1c210d;
+	height: 200px;
 }
 .menu_button{
 	margin-block-start: 1em;
@@ -51,8 +61,8 @@ footer {
 #logo{
 	background: #1c210d;
 	font: normal normal normal 46px/1.4em 'Mr De Haviland',cursive;
-	width: 250px;
-	height: 100px;
+	width: 300px;
+	height: 135px;
 	text-align: center;
 }
 #container {
@@ -62,7 +72,7 @@ footer {
 .center {
 	margin: auto;
 	width: 60%;
-	padding: 10px;
+	padding: 5px;
 }
 #home-img {
 	width: 100%;
@@ -70,8 +80,19 @@ footer {
 	align-content: center;
 }
 #img {
-	margin: 0px auto;
+	margin: 0px 0px 0px 0px;
 }
-.active {
-    background-color: #4CAF50;
+#socials{
+	margin-top: 40px;
+}
+#social{
+	margin-left: 2px;
+	margin-right: 2px;
+}
+.active a{
+	background-color: #303030;
+	color: #B2B1B1;
+}
+.font-8{
+	font-size: 8pt; 
 }
