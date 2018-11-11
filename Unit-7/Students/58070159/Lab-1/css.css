@@ -1,0 +1,15 @@
+.parent{
+	background: yellow;
+}
+.child{
+	background: red;
+	margin: 1em;
+	width: 1em;
+	height: 1em;
+}
+.white{
+	background: white;
+}
+.circle{
+	border: 10px;
+}
