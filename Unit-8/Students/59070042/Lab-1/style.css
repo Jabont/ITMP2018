@@ -1,0 +1,99 @@
+body{
+	margin: 0;
+}
+*{
+	transition:all .3s;
+}
+
+.title, #logo{
+	color: pink;
+	text-align: center;
+}
+#logo{
+	font-size: 2em;
+	margin-top: 0.5em;
+}
+.banner{
+	background-image: url('pic-s.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	padding-top: 100%;
+}
+.cont{
+	padding: 0 1rem;
+}
+.article .banner{
+	padding-top: 40%
+}
+.article .title{
+	text-transform: uppercase;
+}
+.article{
+	font-size: 1.2rem;
+}
+footer{
+	background-color: pink;
+	color: white;
+	padding: 1rem 0;
+}
+
+@media only screen and (min-width: 768px) {
+	.title, #logo{
+		color: red;
+		display: inline-block;
+	}
+	#logo{
+		width: 10%;
+	}
+	.title{
+		width: 80%;
+	}
+	.banner{
+		background-image: url('pic-m.jpg');
+		padding-top: 50%
+	}
+	.article .banner{
+		padding-top: 300px;
+		width: 300px;
+		float: left;
+		margin-right: 1em;
+		margin-bottom: 1em;
+	}
+	footer{
+		clear: both;
+		background-color: orange;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.title, #logo{
+		color: blueviolet;
+		display: inline-block;
+	}
+	.title{
+		text-align: right;
+	}
+	#logo{
+		text-align: left;
+	}
+	.banner{
+		background-image: url('pic-l.jpg');
+		padding-top: 30%
+	}
+	.cont{
+		width: 1200px;
+		margin: auto;
+	}
+	.article .title{
+		text-align: left;
+	}
+	.article .banner{
+		padding-top: 300px;
+		width: 500px;
+	}
+	footer{
+		clear: both;
+		background-color: blueviolet;
+	}
+}
