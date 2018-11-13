@@ -1,0 +1,108 @@
+body{
+	margin: 0px;
+}
+*{
+	transition:all .3s;
+}
+
+/*------------------------------phone-----------------------*/
+
+.title, #logo{
+	color: pink;
+	text-align: center;
+}
+.title {
+/*	width: 89%;*/
+    display: inline-block;
+}
+#logo{
+	margin-top: .75em;
+	font-size: 2em;
+/*	width: 10%;*/
+    display: inline-block;
+}
+.banner {
+	background-image:url('pic-s.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	padding-top: 100%; /*สร้างสี่เหลีย่มจัตุรัส*/
+}
+.cont{
+	padding: 0 1rem;
+}
+.article .banner{
+	padding-top: 40%;
+}
+.article .title{
+	text-transform: uppercase;
+	}
+.article{
+	font-size: 1.2em;
+}
+footer{
+	background-color: pink;
+	color: #fff;
+	padding: 1rem 0;
+}
+
+/*responsive เมื่ออยู่บนจอเท่านั้น และ ความกว้างหน้าจออย่างน้อย 768 ถึงแสดงผล....
+min width = ">="
+max width = "<="
+*/
+
+/*---------------------tablet------------------------*/
+@media only screen and (min-width: 768px) { 
+    .title, #logo{
+		color: orange;
+	}
+	.banner {
+		background-image:url('pic-m.jpg');
+		padding-top: 50%;
+	}
+	.article .banner{
+		padding-top: 300px;
+		width: 300px;
+		float: left;
+		margin-right: 1em;
+		margin-bottom: 1em;
+	}
+	footer{
+		background-color: orange;
+		clear: both;
+		margin-top: 2rem;
+		
+	}
+}
+
+/*---------------------desktop---------------------*/
+@media only screen and (min-width: 1200px) {
+    .title, #logo{
+	color: blueviolet;
+	}
+	.banner {
+		background-image:url('pic-l.jpg');
+		padding-top: 50%;
+	}
+	.title {
+		text-align: right;
+	}
+	#logo {
+		text-align: left;
+	}
+	.cont{
+		width: 1000px;
+		margin: auto;
+	}
+	.article .banner{
+		padding-top: 300px;
+		width: 500px;
+	}
+	footer{
+		background-color: blueviolet;
+		clear: both;
+		margin-top: 2rem;
+		margin-bottom: 1em;
+	}
+	
+}

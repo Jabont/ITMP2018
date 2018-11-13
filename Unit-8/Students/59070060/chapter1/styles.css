@@ -1,0 +1,151 @@
+/* Desktop, fixed width CSS */
+
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/**
+ * Color, typography and basic layout
+ * Colors:
+ * - #f9f3e9 -> light cream (background)
+ * - #594846 -> Dark brown (body text, rules)
+ * - #42628F -> Dark blue (link text)
+ * - #7b96bc -> Medium-light blue (navigation and footer background)
+ */
+body {
+	background: #f9f3e9;
+	color: #594846;
+	font: "Adobe Caslon Pro", Georgia, "Times New Roman", serif;
+}
+a, a:visited {
+  color: #42628F;
+}
+p {
+  margin: 0.5em 0.25em;
+}
+h1 {
+  font-size: 1.75em;
+	border: solid #594846;
+	border-width: 2px 0;
+	padding: 0.25em;
+  text-align: center;
+  font-variant: small-caps;
+}
+h2 {
+  text-align: center;
+  font-variant: small-caps;
+}
+dl {
+  margin: 0 0.5em;
+}
+dt {
+  font-weight: bold;
+  margin: 0.5em 1em 0.5em 0;
+  border-bottom: 1px dashed #7b96bc;
+}
+.intro {
+  font-size: 1.15em;
+  line-height: 1.3em;
+  text-align: justify;
+  margin: 0.5em;
+  font-weight: bold;
+}
+.navigation {
+  background-color:#7b96bc;
+  border-bottom: 2px solid #594846;
+}
+.navigation ul li {
+  text-align: center;
+  display: block;
+  float: left;
+  padding: 0.25em 0;
+}
+.navigation li a {
+  color: #f9f3e9;
+  font-variant: small-caps;
+  text-decoration: none;
+}
+.header p {
+  margin-left: -1000px;
+}
+#points ul {
+  list-style-image: url('images/point.png');
+  margin: 0.5em 0 1em 0.5em;
+  padding-left: 1em;
+}
+#points ul li {
+  margin: 0.5em 1em;
+}
+.footer {
+  background-color: #7b96bc;
+  color: #f9f3e9;
+  text-align: center;
+  padding: .5em 0;
+  font-style: italic;
+}
+
+/* Structure */
+/*desktop*/
+@media screen and (min-width: 481px){
+body, .header, .navigation, .footer {
+  width: 100%;
+}
+
+.column {
+  margin: 10px 1.041% 0 0;
+}
+.navigation {
+  min-height: 25px;
+}
+.navigation ul li {
+  width: 33.33%; /* 960/3 */
+}
+.header {
+  background:url(images/w.png) no-repeat;
+  height: 200px;
+}
+#visit {
+  width: 25%;
+  float: left;
+}
+#points {
+  width: 25%;
+  float: right;
+}
+#main {
+  margin: 10px 27.0833% 0 26.041%;
+
+}
+}
+
+
+/*mobile*/
+@media screen and (max-width: 480px){
+body, .header, .navigation, .footer {
+  width: 320px;
+}
+.header, .navigation, .footer {
+  clear: both;
+}
+.column {
+  margin: 10px 0;
+  border-bottom: 1px dashed #7b96b1;
+}
+.navigation {
+  min-height: 25px;
+}
+.navigation ul li {
+  width: 103.6667px; /* 960/3 */
+}
+.header {
+  background:url(images/w.png) no-repeat;
+  height: 200px;
+}
+#visit, #points, #main {
+  width: 320px;
+}
+img, object{
+  max-width: 100%  }
+}
