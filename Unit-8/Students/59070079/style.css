@@ -1,0 +1,73 @@
+body{
+	margin: 0;
+}
+
+.title, #logo{
+	color: pink;
+	text-align: center;
+}
+#logo {
+	font-size: 2em;
+	margin-top: .75em;
+}
+
+.banner{
+	background-image: url('pic-s.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	padding-top: 100%;
+}
+@media only screen and (max-width: 768px) {
+	.title, #logo{
+		color: red;
+	}
+	.title {
+		width: 89%;
+		display: inline-block;
+	}
+	#logo {
+		width: 10%;
+		display: inline-block;
+	}
+	.banner {
+		background-image: url('pic-m.jpg');
+		padding-top: 50%;
+	}
+	.cont {
+		padding: 0 1em;
+	}
+	.arcthical .banner {
+		padding-top: 40%;
+	}
+	.arcthical .title-circle{
+		text-transform: uppercase;
+	}
+
+@media only screen and (min-width: 1200px) {
+	.title, #logo{
+		color: blue;
+	}
+	.title {
+		width: 89%;
+		display: inline-block;
+		text-align: right;
+	}
+	#logo {
+		text-align: left;
+		width: 10%;
+		display: inline-block;
+	}
+	.banner {
+		background-image: url('pic-l.jpg');
+		padding-top: 50%;
+	}
+	.cont {
+		width: 1000px;
+		margin: auto;
+	}
+	.arcthical .title-circle {
+		text-align: left;
+	}
+
+}
