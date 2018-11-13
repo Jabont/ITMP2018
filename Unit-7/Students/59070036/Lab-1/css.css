@@ -1,0 +1,10 @@
+.parent{
+    background: gray;
+}
+.child{
+    background: yellow;
+    margin: 1em;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+}

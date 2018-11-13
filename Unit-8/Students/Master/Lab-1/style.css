@@ -52,8 +52,8 @@ body{
 		padding-top: 300px;
 		width: 300px;
 		float: left;
-		margin-right: 1em;
-	} 
+		margin-right:1em; 
+	}
 }
 
 @media only screen and (min-width: 1200px) {
