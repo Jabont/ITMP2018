@@ -1,0 +1,15 @@
+body{
+	margin: 0;
+}
+.title{
+	color: pink;
+	text-align: center;
+
+}
+.banner{
+	background-image:url('pic-s.jpg');
+	background-size:cover;
+	background-position: center;
+	width: 100%;
+	padding-top: 100%;
+}
