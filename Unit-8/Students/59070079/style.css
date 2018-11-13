@@ -1,73 +1,87 @@
 body{
 	margin: 0;
 }
+*{
+	transition:all .3s;
+}
 
 .title, #logo{
 	color: pink;
 	text-align: center;
 }
-#logo {
+#logo{
 	font-size: 2em;
 	margin-top: .75em;
 }
-
 .banner{
-	background-image: url('pic-s.jpg');
-	background-size: cover;
-	background-position: center;
+	background-image:url('pic-s.jpg');
+	background-size:cover;
+	background-position:center;
 	width: 100%;
 	padding-top: 100%;
 }
-@media only screen and (max-width: 768px) {
+.cont{
+	padding: 0 1em;
+}
+.article .banner{
+	padding-top: 40%;
+} 
+.article .title{
+	text-transform: uppercase;
+}
+.article{
+	font-size: 1.2rem;
+}
+footer {
+	
+}
+@media only screen and (min-width: 768px) {
 	.title, #logo{
 		color: red;
 	}
-	.title {
+	.title{
 		width: 89%;
 		display: inline-block;
 	}
-	#logo {
+	#logo{
 		width: 10%;
 		display: inline-block;
 	}
-	.banner {
-		background-image: url('pic-m.jpg');
+	.banner{
+		background-image:url('pic-m.jpg');
 		padding-top: 50%;
 	}
-	.cont {
-		padding: 0 1em;
+	.article .banner{
+		padding-top: 300px;
+		width: 300px;
+		float: left;
+		margin-right:1em; 
 	}
-	.arcthical .banner {
-		padding-top: 40%;
-	}
-	.arcthical .title-circle{
-		text-transform: uppercase;
-	}
+}
 
 @media only screen and (min-width: 1200px) {
 	.title, #logo{
-		color: blue;
+		color: blueviolet;
 	}
-	.title {
-		width: 89%;
-		display: inline-block;
+	.banner{
+		background-image:url('pic-l.jpg');
+		padding-top: 30%;
+	}
+	.title{
 		text-align: right;
 	}
-	#logo {
+	#logo{
 		text-align: left;
-		width: 10%;
-		display: inline-block;
 	}
-	.banner {
-		background-image: url('pic-l.jpg');
-		padding-top: 50%;
-	}
-	.cont {
+	.cont{
 		width: 1000px;
 		margin: auto;
 	}
-	.arcthical .title-circle {
+	.article .title{
 		text-align: left;
 	}
-
+	.article .banner{
+		padding-top: 300px;
+		width: 500px;
+	}
 }
