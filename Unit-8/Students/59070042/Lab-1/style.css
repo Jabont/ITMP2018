@@ -21,7 +21,7 @@ body{
 	padding-top: 100%;
 }
 .cont{
-	padding: 0 1em;
+	padding: 0 1rem;
 }
 .article .banner{
 	padding-top: 40%
@@ -31,6 +31,11 @@ body{
 }
 .article{
 	font-size: 1.2rem;
+}
+footer{
+	background-color: pink;
+	color: white;
+	padding: 1rem 0;
 }
 
 @media only screen and (min-width: 768px) {
@@ -53,6 +58,11 @@ body{
 		width: 300px;
 		float: left;
 		margin-right: 1em;
+		margin-bottom: 1em;
+	}
+	footer{
+		clear: both;
+		background-color: orange;
 	}
 }
 
@@ -74,7 +84,6 @@ body{
 	.cont{
 		width: 1200px;
 		margin: auto;
-		background-color: white;
 	}
 	.article .title{
 		text-align: left;
@@ -82,5 +91,9 @@ body{
 	.article .banner{
 		padding-top: 300px;
 		width: 500px;
+	}
+	footer{
+		clear: both;
+		background-color: blueviolet;
 	}
 }
