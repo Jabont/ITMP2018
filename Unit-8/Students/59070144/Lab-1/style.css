@@ -1,8 +1,9 @@
-body {
+body{
 	margin: 0;
 }
+
 *{
-	transition: all .3s;
+	transition:all .3s;
 }
 
 .title, #logo{
@@ -16,84 +17,102 @@ body {
 }
 
 .banner{
-	background-image: url('pic-s.jpg');
-	background-size: cover;
-	background-position: center;
+	background-image:url('pic-s.jpg');
+	background-size:cover;
+	background-position:center;
 	width: 100%;
 	padding-top: 100%;
 }
+
 .cont{
-	padding: 0 1em;
+	padding: 0 1rem;
 }
+
 .article .banner{
 	padding-top: 40%;
 }
+
 .article .title{
 	text-transform: uppercase;
 }
+
 .article{
 	font-size: 1.2rem;
 }
-footer{
+
+footer {
 	background: pink;
 	color: white;
-	padding: 1rem ;
+	padding: 1rem 0;
 }
 
 @media only screen and (min-width: 768px) {
-	.title, #logo{
+	.title, #logo {
 		color: red;
 	}
+
 	.title{
-		width: 89%
+		width: 89%;
 		display: inline-block;
 	}
+
 	#logo{
 		width: 10%;
 		display: inline-block;
 	}
+
 	.banner{
-		background-image: url('pic-m.jpg');
+		background-image:url('pic-m.jpg');
 		padding-top: 50%;
 	}
-	.article .banner{
+
+	.article .banner {
 		padding-top: 300px;
 		width: 300px;
 		float: left;
 		margin-right: 1em;
 		margin-bottom: 1em;
 	}
-	footer{
-	clear: both;
-	background: orange;
+
+	footer {
+		clear: both;
+		background: orange;
+	}
 }
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1200px) {
 	.title, #logo{
 		color: blueviolet;
 	}
+
 	.banner{
-		background-image: url('pic-l.jpg');
+		background-image:url('pic-l.jpg');
 		padding-top: 30%;
 	}
+
 	.title{
 		text-align: right;
 	}
+
 	#logo{
 		text-align: left;
 	}
+
 	.cont{
 		width: 1000px;
 		margin: auto;
 	}
+
 	.article .title{
 		text-align: left;
 	}
-	.article .banner{
+
+	.article .banner {
 		padding-top: 300px;
 		width: 500px;
 	}
-	footer{
+
+	footer {
 		background: blueviolet;
 	}
 }

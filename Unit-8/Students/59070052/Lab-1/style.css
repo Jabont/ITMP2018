@@ -28,15 +28,21 @@ body{
 	text-transform: uppercase;
 	}
 .cont{
-	padding: 0 1em;
+	padding: 0 1rem;
 
 }
 .article{
 	font-size: 1.2rem;
 }
+footer{
+	background-color: pink;
+	color: white;
+	padding: 1rem 0;
+
+}
 @media only screen and (min-width: 768px) {
     .title, #logo{
-	color: red;
+	color: orange;
 	display: inline-block;
 
 	}
@@ -55,6 +61,12 @@ body{
     width: 300px;
     float: left;
     margin-right: 1em;
+    margin-bottom: 1em;
+	}
+	footer{
+	clear: both;
+	background: orange;
+
 	}
 }
 @media only screen and (min-width: 1024px) {
@@ -83,5 +95,9 @@ body{
     width: 500px;
     float: left;
     margin-right: 1em;
+	}
+	footer{
+	background: blueviolet;
+
 	}
 }
