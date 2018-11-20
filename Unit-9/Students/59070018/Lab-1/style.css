@@ -1,31 +1,20 @@
-
 .display_flex{
-	height: 80vh; 
+	height: 80vh;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content:space-between;
-	align-items:stretch;
-	
-}
+	justify-content: space-between;
+	align-items: stretch;
 
+}
 .display_flex div{
 	width: 3em;
 	height: 3em;
 }
-
 .item-1{
-	order:10;
+	order: 10;
 }
-
 .item-2{
-	order:10;
+	order: 20;
 }
 
-.item-3{
-	order:10;
-}
-
-.item-4{
-	order:10;
-}
