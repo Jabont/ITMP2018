@@ -23,9 +23,11 @@ nav{
 	height: 80vh;
 	margin: auto;
 	padding: 1em;
+	display:flex;
+	align-items: center;
 }
 #wolf{
 	width: 200px;
-	display:flex;
-	align-self:auto;
+	
+	
 }
