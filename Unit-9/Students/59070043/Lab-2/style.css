@@ -1,0 +1,37 @@
+.ctn{
+	display: flex;
+	width: 900px;
+	margin: auto;
+	padding: 1em;
+	height: 80vh;
+	align-items: center;
+}
+.flex{
+	height: 80vh;
+	display: flex;
+	flex-direction:row; /* row = default row-reverse column column-reverse*/
+	flex-wrap:wrap;
+	justify-content:space-between; /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+	align-items: stretch;
+}
+
+nav{
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+}
+
+#logo{
+	width: 48px;
+
+}
+
+.main_menu{
+	display: flex;
+}
+
+.main_menu div{
+	padding: 0.2em;
+	margin-right: 2px; 
+	background-color: black;
+};
