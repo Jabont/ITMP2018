@@ -1,0 +1,17 @@
+.display_flex{
+	display: flex;
+	flex-direction: row;
+	background-color: yellow;
+	height: 80vh;
+	justify-content:space-between;
+}
+body{
+	font-size: 5em;
+}
+.display_flex div{
+	width: 3em;
+	height: 3em;
+}
+.item-1{
+	flex-grow:1;
+}
