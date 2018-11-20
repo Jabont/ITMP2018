@@ -1,0 +1,29 @@
+.display_flex{
+	display: flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+
+}
+nav{
+	display: flex;
+	align-items:center;
+	justify-content:space-between;
+
+}
+#logo{
+
+}
+#main_menu{
+	display: flex;
+}
+#main_menu div{
+	padding: 0.25em;
+}
+.ctn{
+	display: flex;
+	align-items:center;
+	width: 900px;
+	margin: auto;
+	padding: 80px;
+	height: 800px;
+}

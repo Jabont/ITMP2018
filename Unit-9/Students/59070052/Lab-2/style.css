@@ -1,0 +1,28 @@
+.display_flex{
+	display: flex;
+}
+nav{
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+}
+#logo{
+	width: 80px;
+}
+body{
+	color:white;
+}
+#main-menu{
+	display: flex;
+}
+#main-menu div{
+	padding: 0.25em;
+
+}
+.ctn{
+	width: 900px;
+	margin: auto;
+	height: 80vh;
+	display: flex;
+	align-items: center;
+}

@@ -1,0 +1,35 @@
+.dis-flex {
+	height: 80vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+#logo {
+	width: 48px;
+}
+
+#main_menu {
+	display: flex;
+	align-items: center;
+}
+
+#main_menu div {
+	padding: .25em;
+}
+
+.ctn {
+	/*text-align: center;*/
+	width: 900px;
+	margin: auto;
+	height: 80vh;
+	display: flex;
+	align-items: center;
+}
