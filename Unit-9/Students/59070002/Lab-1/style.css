@@ -1,0 +1,25 @@
+.display_flex{
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	/*flex-direction: column-reverse, rown;*/
+	flex-wrap:wrap;
+	justify-content:space-between;
+	align-items:stretch;
+}
+.display_flex div{
+	width: 3em;
+	height: 3em;
+}
+.item-1{
+	flex-grow:1;
+}
+.item-2{
+	flex-grow:2;
+}
+.item-3{
+	flex-grow:3;
+}
+.item-4{
+	flex-grow:5;
+}
