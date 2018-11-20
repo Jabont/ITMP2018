@@ -1,0 +1,31 @@
+body{
+	font-size: 2em;
+}
+
+.display_flex{
+	height: 80vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	align-content: flex-start;
+}
+
+.display_flex div{
+	width: 3em;
+	height: 3em;
+}
+
+.item-1{
+	flex-grow:1;
+}
+.item-2{
+	flex-grow:1;
+}
+.item-1{
+	flex-grow:1;
+}
+.item-1{
+	flex-grow:1;
+}
