@@ -1,0 +1,31 @@
+.display_flex{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: stretch;
+}
+nav{
+	display:flex;
+	justify-content: space-between;
+}
+#logo{
+	width: 48px;
+}
+#main_menu{
+	display: flex;
+}
+
+#main_menu div{
+	padding: 0.25em;
+}
+.ctn{
+	width: 900px;
+	height: 80vh;
+	margin: auto;
+	padding: 1em;
+}
+#wolf{
+	width: 200px;
+	display:flex;
+	align-self:auto;
+}
