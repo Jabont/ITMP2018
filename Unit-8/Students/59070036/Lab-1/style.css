@@ -2,9 +2,10 @@ body{
     margin: 0;
 }
 *{
-    transition: all .3s;
+    transition:all .3s;
 }
-.title , #logo{
+
+.title, #logo{
     color: pink;
     text-align: center;
 }
@@ -13,18 +14,18 @@ body{
     margin-top: .75em;
 }
 .banner{
-    background-image: url("pic-s.jpg");
-    background-size: cover;
-    background-position: center;
+    background-image:url('pic-s.jpg');
+    background-size:cover;
+    background-position:center;
     width: 100%;
-    padding-top: 100%; 
+    padding-top: 100%;
 }
 .cont{
-    padding: 0 1em;
+    padding: 0 1rem;
 }
 .article .banner{
     padding-top: 40%;
-}
+} 
 .article .title{
     text-transform: uppercase;
 }
@@ -32,14 +33,15 @@ body{
     font-size: 1.2rem;
 }
 footer{
+    background: pink;
     color: white;
-    padding: 1em;
-}
+    padding: 1rem 0;
 
-@media only screen and (min-width: 768px) {
-    .title , #logo{
-    color:lightblue;
 }
+@media only screen and (min-width: 768px) {
+    .title, #logo{
+        color: orange;
+    }
     .title{
         width: 89%;
         display: inline-block;
@@ -49,19 +51,22 @@ footer{
         display: inline-block;
     }
     .banner{
-        background-image: url("pic-m.jpg");
-        padding-top: 50%
+        background-image:url('pic-m.jpg');
+        padding-top: 50%;
     }
+    .article .banner{
+        padding-top: 300px;
+        width: 300px;
+        float: left;
+        margin-right:1em; 
+        margin-bottom:1em; 
+    }
+    footer{
+        clear: both;
+        background: orange;
+    }
+}
 
-.article .banner{
-    padding-top: 100%;
-    width: 300px;
-}
-footer{
-    clear: both;
-    background: orange;
-}
-}
 @media only screen and (min-width: 1200px) {
     .title, #logo{
         color: blueviolet;
@@ -82,5 +87,12 @@ footer{
     }
     .article .title{
         text-align: left;
+    }
+    .article .banner{
+        padding-top: 300px;
+        width: 500px;
+    }
+    footer{
+        background: blueviolet;
     }
 }
