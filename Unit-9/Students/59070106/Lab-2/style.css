@@ -1,0 +1,38 @@
+
+.display_flex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:space-between;
+	align-items:stretch;
+	
+}
+
+nav{
+	display: flex;
+	align-items:center;
+	justify-content:space-between;
+}
+
+#Logo{
+	width: 64px;
+}
+
+#main_menu{
+	padding: .2em;
+	display: flex;
+}
+
+#main_menu div{
+	padding: 0.25em;
+}
+
+.ctn{
+	width: 900px;
+	text-align: center;
+	margin: auto;
+	padding: 1em;
+	height: 80vh;
+	display: flex;
+	align-items:center;
+}
