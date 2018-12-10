@@ -1,0 +1,70 @@
+/*Shared*/
+body {
+	margin: 0;
+}
+* {
+	transition: all .3s;
+}
+.title, #logo {
+	color: purple;
+	display: inline-block;
+}
+#logo {
+	text-align: left;
+	font-size: 2em;
+	margin-top: .75em;
+	width: 5%;
+}
+.title {
+	text-align: right;
+	width: 80%;
+}
+.banner {
+	background-image: url('pic-l.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	padding-top: 30%;
+}
+.cont {
+	width: 1024px;
+	margin: auto;
+}
+
+.article .banner {
+	padding-top: 100%;
+}
+/*Tablet*/
+@media only screen and (max-width: 768px) {
+	.title, #logo {
+		color: red;
+		display: block;
+		text-align: center;
+		width: 100%;
+	}
+	.banner {
+		background-image: url('pic-m.jpg');
+		padding-top: 50%;
+	}
+	.article .banner {
+		padding-top: 100%;
+	}
+}
+
+/*Mobile*/
+@media only screen and (max-width: 425px) {
+	.title, #logo {
+		color: pink;
+	}
+	.banner {
+		background-image: url('pic-s.jpg');
+		padding-top: 0%;
+	}
+	.article .banner {
+		padding-top: 40%;
+	}
+	footer {
+		width: 100%;
+		background: pink;
+	}
+}
