@@ -1,0 +1,38 @@
+body {
+	margin: 0;
+}
+.m-nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #85A;
+	padding: 0.25em;
+}
+.logo-holder{
+	height: 48px;
+}
+#logo{
+	height: 48px;
+}
+#main-menu {
+	display: flex;
+}
+#main-menu div{
+	padding: 0.25em;
+	font-size: 1.2em;
+	color: #FFF;
+	font-weight: bold;
+}
+.ctn{
+	width: 900px;
+	height: 90vh;
+	margin: auto;
+	background-color: #FFF59D;
+	display: flex;
+	align-items:center;
+	justify-content: space-evenly;
+	transition: all .3s;
+}
+.ctn:hover{
+	width: 100%;
+}

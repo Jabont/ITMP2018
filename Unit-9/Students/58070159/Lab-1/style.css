@@ -1,0 +1,41 @@
+body{
+	margin: 0;
+}
+.flex_display{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	height: 100vh;
+	background-color: #FF5;
+}
+.flex_display div{
+	flex-grow: 1;
+	padding: .5em;
+	height: 3em;
+	transition:all .3s;
+}
+.flex_display div:hover{
+	flex-grow: 3;
+}
+#icon-1{
+	background-color: #FA4;
+	order: 1;
+}
+#icon-2{
+	background-color: #CA7;
+	order: 4;
+}
+#icon-3{
+	background-color: #9AA;
+	order: 3;
+}
+#icon-4{
+	background-color: #6AD;
+	order: 2;
+}
+
+@media only screen and (min-width: 768px) {
+	.flex_display{
+		flex-direction: row;
+	}
+}
